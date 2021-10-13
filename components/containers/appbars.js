@@ -16,6 +16,7 @@ import MailIcon from '@mui/icons-material/Mail';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import MoreIcon from '@mui/icons-material/MoreVert';
 import { ToggleButton } from '@mui/material';
+import Image from "next/image"
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -169,6 +170,7 @@ export default function AppBars() {
           >
             <MenuIcon />
           </IconButton>
+          <Image src="/logo.png" alt="logo" width="50" height="50"/>
           <Typography
             variant="h6"
             noWrap
