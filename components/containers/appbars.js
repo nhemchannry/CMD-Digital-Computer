@@ -16,7 +16,11 @@ import MailIcon from '@mui/icons-material/Mail';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import MoreIcon from '@mui/icons-material/MoreVert';
 import { ToggleButton } from '@mui/material';
-import Image from "next/image"
+import Image from "next/image";
+import Desktops from './buttondesks';
+import Loptops from './buttonlops';
+import ACCESERYS from './buttonacces';
+
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -188,9 +192,9 @@ export default function AppBars() {
               inputProps={{ 'aria-label': 'search' }}
             />
           </Search>
-          <ToggleButton href="/material-ui">DESKTOP</ToggleButton>
-          <ToggleButton href="/material-ui">LAPTOP</ToggleButton>
-          <ToggleButton href="/divider">ACCESERY</ToggleButton>
+          <Desktops/>
+          <Loptops/>
+          <ACCESERYS/>
           <ToggleButton href="/">CONTACT US</ToggleButton>
           <ToggleButton href="/">ABOUT</ToggleButton>
           <ToggleButton href="/login">CREATE ACCOUNT</ToggleButton>
