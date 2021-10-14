@@ -9,6 +9,7 @@ import ArchiveIcon from '@mui/icons-material/Archive';
 import FileCopyIcon from '@mui/icons-material/FileCopy';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import LaptopMacIcon from '@material-ui/icons/LaptopMac';
 
 const StyledMenu = styled((props) => (
   <Menu
@@ -85,21 +86,28 @@ export default function Loptop() {
         onClose={handleClose}
       >
         <MenuItem onClick={handleClose} disableRipple>
-          <EditIcon />
+          <LaptopMacIcon/>
           APPLE
         </MenuItem>
         <MenuItem onClick={handleClose} disableRipple>
-          <FileCopyIcon />
+          <LaptopMacIcon/>
           ASUS
         </MenuItem>
-        <Divider sx={{ my: 0.5 }} />
         <MenuItem onClick={handleClose} disableRipple>
-          <ArchiveIcon />
+          <LaptopMacIcon/>
           DELL
         </MenuItem>
         <MenuItem onClick={handleClose} disableRipple>
-          <MoreHorizIcon />
-          More
+          <LaptopMacIcon/>
+          LENOVO
+        </MenuItem>
+        <MenuItem onClick={handleClose} disableRipple>
+          <LaptopMacIcon/>
+          ACER
+        </MenuItem>
+        <MenuItem onClick={handleClose} disableRipple>
+          <LaptopMacIcon/>
+          HP
         </MenuItem>
       </StyledMenu>
     </div>
