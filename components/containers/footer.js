@@ -111,10 +111,9 @@ export default function Footer(){
                      <Icon ><WhatsAppIcon style={{ fontSize: 25 }} /></Icon>
                      <Icon ><TelegramIcon style={{ fontSize: 25 }} /></Icon>
                  </Box>
-                 
+                
                   </Box>   
                   
-                 
                </Grid>
             </Container>
          </Box>
