@@ -4,9 +4,17 @@ import Container from "@material-ui/core/Container"
 import Grid from "@material-ui/core/Grid"
 import Box from "@material-ui/core/Box"
 import Link from 'next/link'
-import AlarmIcon from '@material-ui/icons/Alarm';
-import IconButton from '@material-ui/core/IconButton';
 import Image from "next/image"
+import Icon from '@material-ui/core/Icon';
+import YouTubeIcon from '@material-ui/icons/YouTube';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import WhatsAppIcon from '@material-ui/icons/WhatsApp';
+import EmailIcon from '@material-ui/icons/Email';
+import Button from '@material-ui/core/Button';
+import TextField from '@material-ui/core/TextField';
+import AccountCircle from '@material-ui/icons/AccountCircle';
+
 
 
 export default function Footer(){
@@ -19,55 +27,87 @@ export default function Footer(){
             
             <Container maxWidth="lg " >
                <Grid container spacing={3} >
-               <Image  src="/CMD Digital Computer.png"  alt="lago.jpg" width="180vh" height="180" />
                
-               <Grid item xs={5} sm={2}>
-                    <Box borderBottom={1} fontSize={25} fontFamily="Agency FB" color=" #ff6f00">
+              <Grid item xs={5} sm={2}>
+                 <Box marginRight={1} > 
+                 <Image  src="/CMD Digital Computer.png" alt="lago.jpg" width="180vh" height="200" />
+                 </Box>
+                  <Box marginTop={3} marginLeft={2} color="white" >
+                     <Icon ><YouTubeIcon  style={{ fontSize: 29}} /></Icon>
+                     <Icon ><FacebookIcon  style={{ fontSize: 25 }} /></Icon>
+                     <Icon ><InstagramIcon style={{ fontSize: 25 }} /></Icon>
+                     <Icon ><WhatsAppIcon style={{ fontSize: 25 }} /></Icon>
+                 </Box>
+                 
+                 
+
+              </Grid>
+             
+                <Grid item xs={5} sm={2}>
+                    <Box borderBottom={1} fontSize={25} fontFamily="Agency FB" color=" #ff6f00" marginLeft={3} marginTop={2}>
                        Help</Box>
-                    <Box fontSize={20} fontFamily="Agency FB"> 
+                    <Box fontSize={20} fontFamily="Agency FB" marginLeft={3}> 
                        <Link href="/contact" color="inherit ">Contact</Link>
                     </Box>
-                    <Box fontSize={20} fontFamily="Agency FB"> 
+                    <Box fontSize={20} fontFamily="Agency FB" marginLeft={3}> 
                        <Link href="/support" color="inherit ">Support</Link>
                     </Box>
-                    <Box fontSize={20} fontFamily="Agency FB"> 
+                    <Box fontSize={20} fontFamily="Agency FB" marginLeft={3}> 
+                       <Link href="/privacy" color="inherit ">Privacy</Link>
+                    </Box>
+                    <Box fontSize={20} fontFamily="Agency FB" marginLeft={3}> 
                        <Link href="/privacy" color="inherit ">Privacy</Link>
                     </Box>
                  </Grid>
 
                  <Grid item xs={5} sm={2}>
-                    <Box borderBottom={1} fontSize={25} fontFamily="Agency FB" color=" #ff6f00">
+                    <Box borderBottom={1} fontSize={25} fontFamily="Agency FB" color=" #ff6f00" marginLeft={3} marginTop={2}>
                        Account</Box>
-                    <Box fontSize={20} fontFamily="Agency FB"> 
-                       <Link href="/register" color="inherit ">register</Link>
+                    <Box fontSize={20} fontFamily="Agency FB" marginLeft={3}> 
+                       <Link href="/register" color="inherit ">Register</Link>
                     </Box>
-                    <Box fontSize={20} fontFamily="Agency FB"> 
+                    <Box fontSize={20} fontFamily="Agency FB" marginLeft={3}> 
                        <Link href="/backup" color="inherit ">Backup</Link>
                     </Box>
-                    <Box fontSize={20} fontFamily="Agency FB"> 
+                    <Box fontSize={20} fontFamily="Agency FB" marginLeft={3}> 
                        <Link href="/login" color="inherit ">Login</Link>
+                    </Box>
+                    <Box fontSize={20} fontFamily="Agency FB" marginLeft={3}> 
+                       <Link href="/privacy" color="inherit ">Privacy</Link>
                     </Box>
                  </Grid>
                  
                  <Grid item xs={5} sm={2}>
-                    <Box borderBottom={1} fontSize={25} fontFamily="Agency FB" color=" #ff6f00">
+                    <Box borderBottom={1} fontSize={25} fontFamily="Agency FB" color=" #ff6f00" marginLeft={3} marginTop={2}>
                        History</Box>
-                    <Box fontSize={20} fontFamily="Agency FB"> 
+                    <Box fontSize={20} fontFamily="Agency FB" marginLeft={3}> 
                        <Link href="/contact" color="inherit ">Contact</Link>
                     </Box>
-                    <Box fontSize={20} fontFamily="Agency FB"> 
+                    <Box fontSize={20} fontFamily="Agency FB" marginLeft={3}> 
                        <Link href="/support" color="inherit ">Support</Link>
                     </Box>
-                    <Box fontSize={20} fontFamily="Agency FB"> 
+                    <Box fontSize={20} fontFamily="Agency FB" marginLeft={3}> 
+                       <Link href="/privacy" color="inherit ">Privacy</Link>
+                    </Box>
+                    <Box fontSize={20} fontFamily="Agency FB" marginLeft={3}> 
                        <Link href="/privacy" color="inherit ">Privacy</Link>
                     </Box>
                  </Grid>
-
-                 <IconButton color="secondary" aria-label="add an alarm">
-                     <AlarmIcon />
-                  </IconButton>
+              
+                 <Box  marginLeft={4} marginTop={3}   height={200} width={300} >
                  
-                 
+                 <Button
+                     href="/login"
+                     variant="contained"
+                     color="primary"
+                     size="large">
+                    <EmailIcon/> 
+                    Email
+                  </Button>
+                  
+                  
+                  </Box>   
+            
                </Grid>
             </Container>
          </Box>
