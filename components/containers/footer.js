@@ -12,10 +12,7 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 import EmailIcon from '@material-ui/icons/Email';
 import Button from '@material-ui/core/Button';
-import TextField from '@material-ui/core/TextField';
-import AccountCircle from '@material-ui/icons/AccountCircle';
-
-
+import TelegramIcon from '@material-ui/icons/Telegram';
 
 export default function Footer(){
    return(
@@ -37,10 +34,8 @@ export default function Footer(){
                      <Icon ><FacebookIcon  style={{ fontSize: 25 }} /></Icon>
                      <Icon ><InstagramIcon style={{ fontSize: 25 }} /></Icon>
                      <Icon ><WhatsAppIcon style={{ fontSize: 25 }} /></Icon>
+                     <Icon ><TelegramIcon style={{ fontSize: 25 }} /></Icon>
                  </Box>
-                 
-                 
-
               </Grid>
              
                 <Grid item xs={5} sm={2}>
@@ -94,8 +89,7 @@ export default function Footer(){
                     </Box>
                  </Grid>
               
-                 <Box  marginLeft={4} marginTop={3}   height={200} width={300} >
-                 
+                 <Box  marginLeft={4} marginTop={10}   height={100} width={300} >
                  <Button
                      href="/login"
                      variant="contained"
@@ -104,9 +98,17 @@ export default function Footer(){
                     <EmailIcon/> 
                     Email
                   </Button>
-                  
-                  
+                  <Button
+                     href="/login"
+                     variant="contained"
+                     color="primary"
+                     size="large">
+                    <EmailIcon/> 
+                    Email
+                  </Button>
+      
                   </Box>   
+                  
             
                </Grid>
             </Container>
