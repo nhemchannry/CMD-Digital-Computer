@@ -13,6 +13,7 @@ import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 import EmailIcon from '@material-ui/icons/Email';
 import Button from '@material-ui/core/Button';
 import TelegramIcon from '@material-ui/icons/Telegram';
+import SubscriptionsIcon from '@material-ui/icons/Subscriptions';
 
 export default function Footer(){
    return(
@@ -29,13 +30,7 @@ export default function Footer(){
                  <Box marginRight={1} > 
                  <Image  src="/CMD Digital Computer.png" alt="lago.jpg" width="180vh" height="200" />
                  </Box>
-                  <Box marginTop={3} marginLeft={2} color="white" >
-                     <Icon ><YouTubeIcon  style={{ fontSize: 29}} /></Icon>
-                     <Icon ><FacebookIcon  style={{ fontSize: 25 }} /></Icon>
-                     <Icon ><InstagramIcon style={{ fontSize: 25 }} /></Icon>
-                     <Icon ><WhatsAppIcon style={{ fontSize: 25 }} /></Icon>
-                     <Icon ><TelegramIcon style={{ fontSize: 25 }} /></Icon>
-                 </Box>
+                 
               </Grid>
              
                 <Grid item xs={5} sm={2}>
@@ -87,9 +82,10 @@ export default function Footer(){
                     <Box fontSize={20} fontFamily="Agency FB" marginLeft={3}> 
                        <Link href="/privacy" color="inherit ">Privacy</Link>
                     </Box>
+                    
                  </Grid>
               
-                 <Box  marginLeft={4} marginTop={10}   height={100} width={300} >
+                 <Box  marginLeft={4} marginTop={7}   height={100} width={320} >
                  <Button
                      href="/login"
                      variant="contained"
@@ -99,17 +95,26 @@ export default function Footer(){
                     Email
                   </Button>
                   <Button
+                    
                      href="/login"
                      variant="contained"
                      color="primary"
                      size="large">
-                    <EmailIcon/> 
-                    Email
+                    <SubscriptionsIcon/> 
+                    subcrib
                   </Button>
-      
+
+                  <Box marginTop={7} marginLeft={7} color="white" >
+                     <Icon ><YouTubeIcon  style={{ fontSize: 29}} /></Icon>
+                     <Icon ><FacebookIcon  style={{ fontSize: 25 }} /></Icon>
+                     <Icon ><InstagramIcon style={{ fontSize: 25 }} /></Icon>
+                     <Icon ><WhatsAppIcon style={{ fontSize: 25 }} /></Icon>
+                     <Icon ><TelegramIcon style={{ fontSize: 25 }} /></Icon>
+                 </Box>
+                 
                   </Box>   
                   
-            
+                 
                </Grid>
             </Container>
          </Box>
