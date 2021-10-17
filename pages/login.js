@@ -1,13 +1,19 @@
 import Link from"next/link"
 import style from"../styles/login.module.css"
 import InputLogin from "../components/presentations/inputlogin"
+import * as React from 'react';
+import Stack from '@mui/material/Stack';
+import Button from '@mui/material/Button';
+
 export default function Login(){
     return(
      <div>
+         <form className={style.loginForm}>
+            <h1>LOGIN</h1>
          <InputLogin label="Username" type="text"/>
          <InputLogin label="Password" type="Password"/>
-         <button className={style.btn}><Link href="/">LOGIN</Link></button>
+         <Button color="secondary" size="large">Login</Button>
+         </form>
      </div>
-        
     )
 }
