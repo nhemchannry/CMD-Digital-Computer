@@ -19,13 +19,13 @@ const useStyles = makeStyles ((theme)=>({
         margin :30
     },
 
-    media:{
-        width :'100%',
-        height : '50vh'
+    // media:{
+    //     width :'100%',
+    //     height : '50vh'
 
-    },
+    // },
     CardActions:{
-        marginLeft: 'auto'
+        marginLeft: 0
     }
 
 }) )
@@ -66,7 +66,7 @@ export default function ProductCard({Title, ImgSrc, OS, CPU, VGA, RAM, HDD, SREE
                     </Typography>
                 </CardContent>
 
-                <CardActions>
+                <CardActions className = {classes.CardActions}>
                     <Button size="large" color="primary"> <FavoriteIcon/>Like </Button>
                     <Button size="large" color="primary"> <ShoppingCartIcon/> Add Card </Button>
                     {/* <Button size="large" color="primary" > <ShareIcon/> Share </Button> */}
