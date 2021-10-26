@@ -1,9 +1,10 @@
-export default function about(){
+import React from 'next/react'
+const ContactPage=()=>{
     return(
-        <div>
-           <h1> about</h1>
+        <div  >
         </div>
 
     )
 
 }
+export default ContactPage;

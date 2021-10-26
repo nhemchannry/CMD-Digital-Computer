@@ -37,7 +37,7 @@ export default function Footer(){
                     <Box borderBottom={1} fontSize={25} fontFamily="Agency FB" color=" #ff6f00" marginLeft={3} marginTop={2}>
                        Help</Box>
                     <Box fontSize={20} fontFamily="Agency FB" marginLeft={3}> 
-                       <Link href="/contact" color="inherit ">Contact</Link>
+                        <Link href="/contact" color="inherit ">Contact</Link>
                     </Box>
                     <Box fontSize={20} fontFamily="Agency FB" marginLeft={3}> 
                        <Link href="/support" color="inherit ">Support</Link>
