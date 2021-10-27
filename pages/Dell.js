@@ -1,20 +1,20 @@
 import ProductCard from "../components/presentations/ProductCard"
-export default function Asus()
+export default function Dell()
 
 {
     return(
         <div>
         <ProductCard
-        Title = "ROG G703GX-E5003T "
-        ImgSrc ="/ASUS/ROG G703.jpg"
+        Title = "Latitude 9420 "
+        ImgSrc ="/Dell/Dell_Latitude__9420_3_view.0.jpg"
         OS ="OS: Windows 10 Pro"
-        CPU="CPU: 8th Gen Intel® Core™ i9"
-        VGA="VGA: GeForce RTX™ 2080"
-        RAM="RAM: 8G DDR4"
+        CPU="CPU: 8th Gen Intel® Core™ i7"
+        VGA="VGA: GeForce RTX™ 1080"
+        RAM="RAM: 32GB DDR4"
         HDD=" HDD: 1TB M.2 "
-        SREEN=" SREEN: 17.3 Full HD (1920x1080), IPS-level gaming panel"
+        SREEN=" SREEN: 15.3 Full HD (1920x1080), IPS-level gaming panel"
         OTHER="RGB KEY"
-        PRICE ="$2099"
+        PRICE =" $1,949"
         />
         <ProductCard
         Title = "GT76 TITAN "
