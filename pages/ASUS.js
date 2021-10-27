@@ -5,6 +5,7 @@ export default function Asus()
     return(
         <div>
         <ProductCard
+        Brand = "Asus"
         Title = "ROG G703GX-E5003T "
         ImgSrc ="/ASUS/ROG G703.jpg"
         OS ="OS: Windows 10 Pro"
@@ -17,6 +18,7 @@ export default function Asus()
         PRICE ="$2099"
         />
         <ProductCard
+        Brand = "Asus"
         Title = "GT76 TITAN "
         ImgSrc ="/MSI/GT76 TITAN.jpg"
         OS ="OS:Windows 10 Pro"

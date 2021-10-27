@@ -5,6 +5,7 @@ export default function Dell()
     return(
         <div>
         <ProductCard
+        Brand = "Dell"
         Title = "Latitude 9420 "
         ImgSrc ="/Dell/Dell_Latitude__9420_3_view.0.jpg"
         OS ="OS: Windows 10 Pro"
@@ -17,6 +18,7 @@ export default function Dell()
         PRICE =" $1,949"
         />
         <ProductCard
+        Brand = "Dell"
         Title = "GT76 TITAN "
         ImgSrc ="/MSI/GT76 TITAN.jpg"
         OS ="OS:Windows 10 Pro"

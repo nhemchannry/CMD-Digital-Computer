@@ -30,7 +30,7 @@ const useStyles = makeStyles ((theme)=>({
 
 }) )
 
-export default function ProductCard({Title, ImgSrc, OS, CPU, VGA, RAM, HDD, SREEN, OTHER, PRICE})
+export default function ProductCard({Title, ImgSrc,Brand, OS, CPU, VGA, RAM, HDD, SREEN, OTHER, PRICE})
 
 {
     const classes = useStyles()
@@ -49,7 +49,7 @@ export default function ProductCard({Title, ImgSrc, OS, CPU, VGA, RAM, HDD, SREE
 
                     style = {{width : '100%', height:'40vh'}}
                     image ={ImgSrc}
-                    title = ""
+                    title = {Brand}
 
                 />
 

@@ -5,6 +5,7 @@ export default function Lenovo()
     return(
         <div>
         <ProductCard
+        Brand = "Lenovo"
         Title = "Lenovo_Y520 "
         ImgSrc ="/Lenovo/Lenovo_Y520.jpg"
         OS ="OS:Windows 10 Pro"
@@ -18,6 +19,7 @@ export default function Lenovo()
         PRICE ="$1279"
         />
         <ProductCard
+        Brand = "Lenovo"
         Title = "GT76 TITAN "
         ImgSrc ="/MSI/GT76 TITAN.jpg"
         OS ="OS:Windows 10 Pro"
