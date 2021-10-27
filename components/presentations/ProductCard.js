@@ -19,14 +19,14 @@ const useStyles = makeStyles ((theme)=>({
         margin :30
     },
 
-    media:{
-        width :'100%',
-        height : '70vh'
+    // media:{
+    //     width :'100%',
+    //     height : '70vh'
 
-    },
-    CardActions:{
-        marginLeft: 0
-    }
+    // },
+    // CardActions:{
+    //     marginLeft: 70
+    // }
 
 }) )
 
@@ -38,7 +38,7 @@ export default function ProductCard({Title, ImgSrc,Brand, OS, CPU, VGA, RAM, HDD
     return(
         <div>
             <Card className = {classes.card}>
-                <CardHeader
+                <CardHeader style = {{paddingTop:10, paddingBottom:0}}
 
                     // avatar = {<Avatar color= "secondary" >P</Avatar>}
                     action = {<IconButton color="primary" > <More/> </IconButton>}
@@ -47,32 +47,32 @@ export default function ProductCard({Title, ImgSrc,Brand, OS, CPU, VGA, RAM, HDD
                 />
                 <CardMedia
 
-                    style = {{width : '100%', height:'30vh'}}
+                    style = {{width : '100%', height:'35vh'}}
                     image ={ImgSrc}
                     title = {Brand}
 
                 />
 
-                <CardContent>
-                <Typography variant="body2" color="textPrimary">
-                    <p>{OS}</p>
-                    <p>{CPU}</p>
-                    <p>{VGA}</p>
-                    <p>{RAM}</p>
-                    <p>{HDD}</p>
-                    <p>{SREEN}</p>
-                    <p>{OTHER} </p>
+                <CardContent style = {{paddingTop:0, paddingBottom:0}}>
+                <Typography variant="body2" color="textPrimary" >
+                    <p style = {{margin:5}}>{OS}</p>
+                    <p style = {{margin:5}}>{CPU}</p>
+                    <p style = {{margin:5}}>{VGA}</p>
+                    <p style = {{margin:5}}>{RAM}</p>
+                    <p style = {{margin:5}}>{HDD}</p>
+                    <p style = {{margin:5}}>{SREEN}</p>
+                    <p style = {{margin:5}}>{OTHER} </p>
                     < span  style={{margin: 0 , fontSize : 25, fontWeight: 'bold'}}>{PRICE}</span>
                     </Typography>
                 </CardContent>
 
-                <CardActions  style={{marginTop: 0}}>
+                <CardActions  >
                     <Button size="large" color="primary"> <FavoriteIcon/>Like </Button>
                     <Button size="large" color="primary"> <ShoppingCartIcon/> Add Card </Button>
                     {/* <Button size="large" color="primary" > <ShareIcon/> Share </Button> */}
                     <Button size="large" color="primary" ><MailOutlineIcon/>Inbox</Button>
                     
-                    <IconButton color="primary" style = {{float:"right"}}> <Image src="/logo.png" alt="logo" width="35" height="35" /></IconButton>
+                    <IconButton color="primary" style={{marginLeft:60}} > <Image src="/logo.png" alt="logo" width="35" height="35"  style = {{float:"right"}}/></IconButton>
 
                 </CardActions>
               
