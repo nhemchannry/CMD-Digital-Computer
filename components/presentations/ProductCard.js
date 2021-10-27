@@ -49,7 +49,7 @@ export default function ProductCard({Title, ImgSrc, OS, CPU, VGA, RAM, HDD, SREE
 
                     style = {{width : '100%', height:'40vh'}}
                     image ={ImgSrc}
-                    title = "MSI"
+                    title = ""
 
                 />
 
