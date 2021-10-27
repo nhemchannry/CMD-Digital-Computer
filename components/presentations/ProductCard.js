@@ -19,11 +19,11 @@ const useStyles = makeStyles ((theme)=>({
         margin :30
     },
 
-    // media:{
-    //     width :'100%',
-    //     height : '50vh'
+    media:{
+        width :'100%',
+        height : '70vh'
 
-    // },
+    },
     CardActions:{
         marginLeft: 0
     }
@@ -47,7 +47,7 @@ export default function ProductCard({Title, ImgSrc, OS, CPU, VGA, RAM, HDD, SREE
                 />
                 <CardMedia
 
-                    style = {{width : '100%', height:'30vh'}}
+                    style = {{width : '100%', height:'40vh'}}
                     image ={ImgSrc}
                     title = "MSI"
 
