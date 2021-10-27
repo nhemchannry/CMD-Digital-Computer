@@ -47,32 +47,32 @@ export default function ProductCard({Title, ImgSrc,Brand, OS, CPU, VGA, RAM, HDD
                 />
                 <CardMedia
 
-                    style = {{width : '100%', height:'40vh'}}
+                    style = {{width : '100%', height:'30vh'}}
                     image ={ImgSrc}
                     title = {Brand}
 
                 />
 
                 <CardContent>
-                <Typography variant="body2" color="textPrimary" className = {classes.Typography}>
+                <Typography variant="body2" color="textPrimary">
                     <p>{OS}</p>
-                    <p>{CPU}<br/></p>
+                    <p>{CPU}</p>
                     <p>{VGA}</p>
-                    <p>{RAM}<br/></p>
-                    <p>{HDD}<br/></p>
-                    <p>{SREEN}<br/></p>
+                    <p>{RAM}</p>
+                    <p>{HDD}</p>
+                    <p>{SREEN}</p>
                     <p>{OTHER} </p>
-                    <h2>{PRICE}</h2>
+                    < span  style={{margin: 0 , fontSize : 25, fontWeight: 'bold'}}>{PRICE}</span>
                     </Typography>
                 </CardContent>
 
-                <CardActions className = {classes.CardActions}>
+                <CardActions  style={{marginTop: 0}}>
                     <Button size="large" color="primary"> <FavoriteIcon/>Like </Button>
                     <Button size="large" color="primary"> <ShoppingCartIcon/> Add Card </Button>
                     {/* <Button size="large" color="primary" > <ShareIcon/> Share </Button> */}
                     <Button size="large" color="primary" ><MailOutlineIcon/>Inbox</Button>
                     
-                    <IconButton color="primary"> <Image src="/logo.png" alt="logo" width="35" height="35" /></IconButton>
+                    <IconButton color="primary" style = {{float:"right"}}> <Image src="/logo.png" alt="logo" width="35" height="35" /></IconButton>
 
                 </CardActions>
               
