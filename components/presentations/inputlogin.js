@@ -1,7 +1,8 @@
-export default function InputLogin({label,type,style}){
+
+export default function Input({label,type,style}){
     return(
         <div>
-         <input type={type} placeholder={label} style={{width:"100%", border:"16px 20px",display: "inline-block",border: "1px solid #ccc", borderRadius:"30px", padding:"15px", marginTop:"20px"}}/>
+            <input type={type} placeholder={label} style={{borderRadius:"15px", border:"1px solid #ccc", padding:"16px 20px", marginTop:"20px", boxSizing: "border-box", width: "100%"}}/>
         </div>
     )
 }
