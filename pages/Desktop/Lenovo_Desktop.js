@@ -1,5 +1,5 @@
 import ProductCard from "../../components/presentations/ProductCard"
-export default function Lenovo()
+export default function Lenovo_Desktop()
 
 {
     return(

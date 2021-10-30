@@ -1,5 +1,5 @@
 import ProductCard from "../../components/presentations/ProductCard"
-export default function Dell()
+export default function Dell_Desktop()
 
 {
     return(

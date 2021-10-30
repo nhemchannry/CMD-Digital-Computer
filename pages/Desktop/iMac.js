@@ -1,5 +1,5 @@
 import ProductCard from "../../components/presentations/ProductCard"
-export default function Mac()
+export default function Mac_Desktop()
 
 {
     return(

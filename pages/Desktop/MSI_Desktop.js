@@ -1,5 +1,5 @@
 import ProductCard from "../../components/presentations/ProductCard"
-export default function MSI()
+export default function MSI_Desktop()
 
 {
     return(

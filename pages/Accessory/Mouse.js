@@ -1,5 +1,5 @@
 import ProductCard from "../../components/presentations/ProductCard"
-export default function Asus_Desktop()
+export default function Mouse()
 
 {
     return(
