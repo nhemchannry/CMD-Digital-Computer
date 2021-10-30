@@ -1,5 +1,5 @@
 import AccessryCard from "../../components/presentations/Accessry"
-export default function Mouse()
+export default function Bag()
 
 {
     return(
