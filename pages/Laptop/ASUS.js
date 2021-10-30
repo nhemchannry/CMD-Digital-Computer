@@ -1,11 +1,12 @@
-import ProductCard from "../components/presentations/ProductCard"
+import ProductCard from "../../components/presentations/ProductCard"
 export default function Asus()
 
 {
     return(
         <div>
+{/* 1 */}
         <ProductCard
-        Brand = "Asus"
+        Brand = "Asus ROG G703GX-E5003T"
         Title = "ROG G703GX-E5003T "
         ImgSrc ="/ASUS/ROG G703.jpg"
         OS ="OS: Windows 10 Pro"
@@ -17,20 +18,21 @@ export default function Asus()
         OTHER="RGB KEY"
         PRICE ="$2099"
         />
+{/* 2 */}
         <ProductCard
-        Brand = "Asus"
-        Title = "GT76 TITAN "
-        ImgSrc ="/MSI/GT76 TITAN.jpg"
+        Brand = "Asus Zenbook 14X"
+        Title = "Zenbook 14X OLD "
+        ImgSrc ="/ASUS/Zenbook 14X OLD.png"
         OS ="OS:Windows 10 Pro"
-        CPU="CPU: latest 10th Gen Intel® Core™ i9-10900K processor"
-        VGA="VGA: GeForce® RTX SUPER™ 2080 graphics"
+        CPU="CPU: 11th gen Intel® Core™ i7 processor"
+        VGA="VGA: Up to NVIDIA® GeForce MX450 discrete graphics"
         RAM="RAM: 16G DDR4"
         HDD=" HDD: 1T SSD M2"
-        SREEN=" SREEN:  UHD (3840x2160), 100% AdobeRGB, IPS-level"
-        OTHER="4 fans and 11 heat pipes
-        Mystic Light underglow and Per-Key RGB gaming keyboard by SteelSeries "
-        PRICE ="$7999"
+        SREEN=" SREEN:  3840 x 2400 4K UHD resolution"
+        OTHER="180˚ ErgoLift hinge for easy sharing "
+        PRICE ="$799"
         />
+{/* 3 */}
 
 
             

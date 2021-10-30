@@ -1,23 +1,24 @@
-import ProductCard from "../components/presentations/ProductCard"
-export default function MSI()
+import ProductCard from "../../components/presentations/ProductCard"
+export default function Dell()
 
 {
     return(
         <div>
         <ProductCard
-        Title = "GS75 STEALTH "
-        ImgSrc ="/MSI/GS75 STEALTH.jpg"
-        OS ="OS:Windows 10 Pro"
-        CPU="CPU: 10th Gen Intel® Core™ i9 processor"
-        VGA="VGA: GeForce® RTX 2080 SUPER™ with Max-Q Design"
-        RAM="RAM: 8G DDR4"
-        HDD=" HDD: 500G SSD M2"
-        SREEN=" SREEN: 17.3 Full HD (1920x1080), IPS-level gaming panel"
-        OTHER="300Hz refresh rate gaming display 
-        Per-Key RGB gaming keyboard by SteelSeries "
-        PRICE ="$1099"
+        Brand = "Dell"
+        Title = "Latitude 9420 "
+        ImgSrc ="/Dell/Dell_Latitude__9420_3_view.0.jpg"
+        OS ="OS: Windows 10 Pro"
+        CPU="CPU: 8th Gen Intel® Core™ i7"
+        VGA="VGA: GeForce RTX™ 1080"
+        RAM="RAM: 32GB DDR4"
+        HDD=" HDD: 1TB M.2 "
+        SREEN=" SREEN: 15.3 Full HD (1920x1080), IPS-level gaming panel"
+        OTHER="RGB KEY"
+        PRICE =" $1,949"
         />
         <ProductCard
+        Brand = "Dell"
         Title = "GT76 TITAN "
         ImgSrc ="/MSI/GT76 TITAN.jpg"
         OS ="OS:Windows 10 Pro"

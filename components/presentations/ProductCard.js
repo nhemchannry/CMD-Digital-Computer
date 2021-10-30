@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 import { Card, CardHeader, CardContent, CardActions, CardMedia, Button } from "@material-ui/core"
 import { IconButton, Avatar } from "@material-ui/core"
-import { More } from "@material-ui/icons"
+import { FullscreenExit, More } from "@material-ui/icons"
 import { makeStyles } from "@material-ui/core/styles"
 import { margin } from "@mui/system"
 import FavoriteIcon from '@material-ui/icons/Favorite';
@@ -30,13 +30,13 @@ const useStyles = makeStyles ((theme)=>({
 
 }) )
 
-export default function ProductCard({Title, ImgSrc,Brand, OS, CPU, VGA, RAM, HDD, SREEN, OTHER, PRICE})
+export default function ProductCard({Brand, Title, ImgSrc, OS, CPU, VGA, RAM, HDD, SREEN, OTHER, PRICE})
 
 {
     const classes = useStyles()
 
     return(
-        <div>
+        <div style = {{display : "flex"}}> 
             <Card className = {classes.card}>
                 <CardHeader style = {{paddingTop:10, paddingBottom:0}}
 

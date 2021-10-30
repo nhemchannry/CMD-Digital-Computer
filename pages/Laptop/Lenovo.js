@@ -1,4 +1,4 @@
-import ProductCard from "../components/presentations/ProductCard"
+import ProductCard from "../../components/presentations/ProductCard"
 export default function Lenovo()
 
 {
