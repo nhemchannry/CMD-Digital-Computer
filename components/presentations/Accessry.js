@@ -15,8 +15,8 @@ import { Typography } from "@material-ui/core"
 
 const useStyles = makeStyles ((theme)=>({
     card:{
-        maxWidth : 450,
-        margin :30
+        maxWidth : 350,
+        margin :20
     },
 
     // media:{
@@ -30,7 +30,7 @@ const useStyles = makeStyles ((theme)=>({
 
 }) )
 
-export default function ProductCard({Brand, Title, ImgSrc, OS, CPU, VGA, RAM, HDD, SREEN, OTHER, PRICE})
+export default function AccessryCard({Brand, BrandName, ImgSrc, Describe, PRICE})
 
 {
     const classes = useStyles()
@@ -43,36 +43,29 @@ export default function ProductCard({Brand, Title, ImgSrc, OS, CPU, VGA, RAM, HD
                     // avatar = {<Avatar color= "secondary" >P</Avatar>}
                     action = {<IconButton color="primary" > <More/> </IconButton>}
 
-                    title = {Title}
+                    title = {BrandName}
                 />
                 <CardMedia
 
-                    style = {{width : '100%', height:'35vh'}}
+                    style = {{width : '100%', height:'40vh'}}
                     image ={ImgSrc}
-                    title = {Brand}
+                    title = {BrandName}
 
                 />
 
                 <CardContent style = {{paddingTop:0, paddingBottom:0}}>
                 <Typography variant="body2" color="textPrimary" >
-                    <p style = {{margin:5}}>{OS}</p>
-                    <p style = {{margin:5}}>{CPU}</p>
-                    <p style = {{margin:5}}>{VGA}</p>
-                    <p style = {{margin:5}}>{RAM}</p>
-                    <p style = {{margin:5}}>{HDD}</p>
-                    <p style = {{margin:5}}>{SREEN}</p>
-                    <p style = {{margin:5}}>{OTHER} </p>
-                    < span  style={{margin: 0 , fontSize : 25, fontWeight: 'bold'}}>{PRICE}</span>
+                    <p style = {{margin:5}}>{Describe} </p>
+                    <h2 style={{margin: 0 , fontSize : 25, fontWeight: 'bold'}}>{PRICE}</h2>
                     </Typography>
                 </CardContent>
 
                 <CardActions  >
-                    <Button size="large" color="primary"> <FavoriteIcon/>Like </Button>
-                    <Button size="large" color="primary"> <ShoppingCartIcon/> Add Card </Button>
-                    {/* <Button size="large" color="primary" > <ShareIcon/> Share </Button> */}
-                    <Button size="large" color="primary" ><MailOutlineIcon/>Inbox</Button>
+                    <Button size="large" color="primary" style = {{ padding: 0}}> <FavoriteIcon/>Like </Button>
+                    <Button size="large" color="primary" style = {{width: 300, padding: 0}}> <ShoppingCartIcon/> Add Card </Button>
+                    <Button size="large" color="primary" style = {{ padding: 0}}><MailOutlineIcon/>Inbox</Button>
                     
-                    <IconButton color="primary" style={{marginLeft:60}} > <Image src="/logo.png" alt="logo" width="35" height="35"  style = {{float:"right"}}/></IconButton>
+                    <IconButton color="primary" style={{marginLeft:10}} > <Image src="/logo.png" alt="logo" width="35" height="35"  style = {{float:"right"}}/></IconButton>
 
                 </CardActions>
               

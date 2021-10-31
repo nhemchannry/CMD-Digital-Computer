@@ -1,24 +1,23 @@
-import ProductCard from "../components/presentations/ProductCard"
-export default function Asus()
+import ProductCard from "../../components/presentations/ProductCard"
+export default function Mac_Desktop()
 
 {
     return(
         <div>
         <ProductCard
-        Brand = "Asus"
-        Title = "ROG G703GX-E5003T "
-        ImgSrc ="/ASUS/ROG G703.jpg"
-        OS ="OS: Windows 10 Pro"
-        CPU="CPU: 8th Gen Intel® Core™ i9"
-        VGA="VGA: GeForce RTX™ 2080"
-        RAM="RAM: 8G DDR4"
+        Brand = "Mac"
+        Title = "MacBook Air 2020 "
+        ImgSrc ="/Mac/MacBook Air 2020.jpg"
+        OS ="OS: Catalina"
+        CPU="CPU: 8th Gen Intel® Core™ i7"
+        VGA="VGA: Intel"
+        RAM="RAM: 8GB DDR4"
         HDD=" HDD: 1TB M.2 "
-        SREEN=" SREEN: 17.3 Full HD (1920x1080), IPS-level gaming panel"
-        OTHER="RGB KEY"
-        PRICE ="$2099"
+        SREEN=" SREEN: 15.3 Full HD (1920x1080), IPS-level gaming panel"
+        PRICE =" $1,949"
         />
         <ProductCard
-        Brand = "Asus"
+        Brand = "Mac"
         Title = "GT76 TITAN "
         ImgSrc ="/MSI/GT76 TITAN.jpg"
         OS ="OS:Windows 10 Pro"

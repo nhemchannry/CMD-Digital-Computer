@@ -1,24 +1,23 @@
-import ProductCard from "../components/presentations/ProductCard"
-export default function Dell()
+import ProductCard from "../../components/presentations/ProductCard"
+export default function Mac()
 
 {
     return(
         <div>
         <ProductCard
-        Brand = "Dell"
-        Title = "Latitude 9420 "
-        ImgSrc ="/Dell/Dell_Latitude__9420_3_view.0.jpg"
-        OS ="OS: Windows 10 Pro"
+        Brand = "Mac"
+        Title = "MacBook Air 2020 "
+        ImgSrc ="/Mac/MacBook Air 2020.jpg"
+        OS ="OS: Catalina"
         CPU="CPU: 8th Gen Intel® Core™ i7"
-        VGA="VGA: GeForce RTX™ 1080"
-        RAM="RAM: 32GB DDR4"
+        VGA="VGA: Intel"
+        RAM="RAM: 8GB DDR4"
         HDD=" HDD: 1TB M.2 "
         SREEN=" SREEN: 15.3 Full HD (1920x1080), IPS-level gaming panel"
-        OTHER="RGB KEY"
         PRICE =" $1,949"
         />
         <ProductCard
-        Brand = "Dell"
+        Brand = "Mac"
         Title = "GT76 TITAN "
         ImgSrc ="/MSI/GT76 TITAN.jpg"
         OS ="OS:Windows 10 Pro"
