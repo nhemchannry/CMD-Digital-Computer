@@ -1,59 +1,61 @@
 import React from 'react';
-import { makeStyles} from '@material-ui/core/styles'
+import { TextField } from '@material-ui/core';
+import {makeStyles} from '@material-ui/core/styles';
+import Button from '@material-ui/core/Button';
+import emailjs from 'emailjs-com';
+import InputLabel from '@material-ui/core/InputLabel';
+import FormControl from '@material-ui/core/FormControl';
+import Select from '@material-ui/core/Select';
 import Link from 'next/link'
 
 const useStyles= makeStyles((theme)=>({
-    header: {
-        backgroundColor: '#fcfbd7',
-        width:'100',
-        height: '90vh',
-        fontFamily:'Book Antiqua',
-        fontSize:'18px',
-        paddingLeft:'50px' ,
-        paddingTop: '20px ' ,
-        
+    root:{
+        backgroundColor: `#fff`,
+        height: `100vh`
     },
-    h1:{
-        color: '#33312c',
-        fontSize: '60',
-    
+    form:{
+        width: 400,
+        backgroundColor: 'white',
+        margin: '0 auto',
+        padding: 25,
+        '& .input':{
+            width: '100%',
+            marginTop: 10
+        }
     },
-    businesshours:{
-        color:'#f20f25',
+    btn:{
+        marginTop: 15,
+        width: '100%'
     },
-    numemail:{
-        color:'#0557a3',
-    },
-    alltext:{
-        paddingTop:'8px',
-    },
-   
-}))
+    formControl: {
+        margin: theme.spacing(1),
+        minWidth: 120,
+      },
+      selectEmpty: {
+        marginTop: theme.spacing(2),
+      }
+}));
+export default function Contact(){
+    const classes = useStyles();
 
-const ContactPage=()=>{
-    const classes= useStyles();
-
+    function handleSendEmail(e){
+        e.preventDefault();
+        console.log(e.target);
+        emailjs.sendForm("cmd-digital-server", "cmd-template", e.target, "user_lod2R8qXUXUch322dpXeT")
+        .then((res)=>{
+            console.log("Your message is sent successfully!");
+        }).catch((err)=>{
+            console.error(err)
+        })
+    }
     return(
-        <div  className={ classes.header}>
-            <h1 className={classes.h1}> CONTACT US </h1>
-            <div className={classes.alltext}> 
-                <p className={ classes.cmd}> CMD-Digital-Computer( Phnom Penh)</p>
-                <p>Address: No. 360-362Eo, Kampuchea Krom Blvd.,
-                Sangkat Mittapheap,<br/> Khan 7 Makara, Phnom Penh, Cambodia</p>
-                <div className={ classes.numemail} >
-                <p>Sales: +855 99 555 729 | +855 15 503 999</p>
-                <p>Services: +855 93 52 61 71</p>
-                <p> 
-                <Link href ="/email"> Email: Sales@cmd-digital-computer.com</Link></p>
-                </div>
-                
-                <div className={classes.businesshours } >
-                <p>Business Hours:</p>
-                <p>Sales       : 8: 00AM - 6: 30PM ( Monday to Sunday )</p>
-                <p>Services : 8: 00AM - 5: 30PM ( Monday to Sunday )</p>
-                </div>
-            </div>
+        <div className={classes.root}>
+           <form onSubmit={handleSendEmail} className={classes.form}>
+           <TextField name="fullName" required className="input" id="outlined-basic" label="Name" type="text" variant="outlined" />
+           <TextField name="email" required className="input" id="outlined-basic" label="Email" type="email" variant="outlined" />
+           <TextField name="message" required className="input" id="outlined-basic" label="Message" type="text" variant="outlined" />
+           <Button className={classes.btn} type="submit" variant="contained" color="primary ">Submit</Button>
+           </form>
         </div>
     )
     }
-export default ContactPage;
