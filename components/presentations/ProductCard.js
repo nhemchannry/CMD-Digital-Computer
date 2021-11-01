@@ -10,13 +10,14 @@ import FavoriteIcon from '@material-ui/icons/Favorite';
 import ShareIcon from '@material-ui/icons/Share';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
-import { Typography } from "@material-ui/core"
+import { Typography } from "@material-ui/core";
+import { Grid } from "@material-ui/core"
 
 
 const useStyles = makeStyles ((theme)=>({
     card:{
         maxWidth : 450,
-        margin :30
+        margin :25
     },
 
     // media:{
@@ -37,6 +38,7 @@ export default function ProductCard({Brand, Title, ImgSrc, OS, CPU, VGA, RAM, HD
 
     return(
         <div style = {{display : "flex"}}> 
+
             <Card className = {classes.card}>
                 <CardHeader style = {{paddingTop:10, paddingBottom:0}}
 
@@ -77,8 +79,6 @@ export default function ProductCard({Brand, Title, ImgSrc, OS, CPU, VGA, RAM, HD
                 </CardActions>
               
             </Card>
-
-
         </div>
     )
 }
