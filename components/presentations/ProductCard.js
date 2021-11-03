@@ -37,7 +37,7 @@ export default function ProductCard({Brand, Title, ImgSrc, OS, CPU, VGA, RAM, HD
     const classes = useStyles()
 
     return(
-        <div style = {{display : "flex"}}> 
+        <div> 
 
             <Card className = {classes.card}>
                 <CardHeader style = {{paddingTop:10, paddingBottom:0}}
@@ -57,7 +57,7 @@ export default function ProductCard({Brand, Title, ImgSrc, OS, CPU, VGA, RAM, HD
 
                 <CardContent style = {{paddingTop:0, paddingBottom:0}}>
                 <Typography variant="body2" color="textPrimary" >
-                    <p style = {{margin:5}}>{OS}</p>
+                    <h3 style = {{margin:5, paddingBottom : 5}}>{OS}</h3>
                     <p style = {{margin:5}}>{CPU}</p>
                     <p style = {{margin:5}}>{VGA}</p>
                     <p style = {{margin:5}}>{RAM}</p>
