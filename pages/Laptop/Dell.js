@@ -69,7 +69,7 @@ export default function Dell()
         RAM="RAM: 32GB DDR4"
         HDD=" HDD: 1TB M.2 "
         SREEN=" SREEN: 15.3 Full HD (1920x1080), IPS-level gaming panel"
-        OTHER="RGB KEY"
+        OTHER="Dell"
         PRICE =" $1,949"
         />
         </Grid>
@@ -85,7 +85,7 @@ export default function Dell()
         RAM="RAM: 32GB DDR4"
         HDD=" HDD: 1TB M.2 "
         SREEN=" SREEN: 15.3 Full HD (1920x1080), IPS-level gaming panel"
-        OTHER="RGB KEY"
+        OTHER="Dell"
         PRICE =" $1,949"
         />
         </Grid>
@@ -101,7 +101,7 @@ export default function Dell()
         RAM="RAM: 32GB DDR4"
         HDD=" HDD: 1TB M.2 "
         SREEN=" SREEN: 15.3 Full HD (1920x1080), IPS-level gaming panel"
-        OTHER="RGB KEY"
+        OTHER="Dell"
         PRICE =" $1,949"
         />
         </Grid>
