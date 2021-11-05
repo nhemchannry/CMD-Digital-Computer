@@ -13,8 +13,8 @@ export default function Mouse()
                 <AccessryCard
                 BrandName = "Clutch GM08"
                 ImgSrc = "/Mouse/Clutch GM08.png"
-                Describe = " GeForce MX450 discrete graphics GeForce MX450 "
-                PRICE = "$20"
+                Describe = " MSI Gamming Mouse "
+                PRICE = "$70"
                 />
                 </Grid>
         
@@ -22,71 +22,69 @@ export default function Mouse()
         
                 <Grid item>
                 <AccessryCard
-                Brand = "MSI"
-                BrandName = "MSI2"
-                ImgSrc = "/Mouse/Clutch GM08.png"
-                Describe = " GeForce MX450 discrete graphics GeForce MX450"
-                PRICE = "$20"
+                Brand = "Lenovo Legion "
+                BrandName = "Lenovo Legion"
+                ImgSrc = "/Mouse/Lenovo Legion.jpg"
+                Describe = " Lenovo Legion M200 RGB Gaming Mouse"
+                PRICE = "$45"
                 />
                 </Grid>
         {/* 3 */}
                 <Grid item>
                 <AccessryCard
-                Brand = "MSI"
-                BrandName = "MSI2"
-                ImgSrc = "/Mouse/Clutch GM08.png"
-                Describe = " GeForce MX450 discrete graphics GeForce MX450"
-                PRICE = "$20"
+                BrandName = "MSI S12"
+                ImgSrc = "/Mouse/MSI S12.jpg"
+                Describe = " MSI Gamming Mouse "
+                PRICE = "$70"
                 />
                 </Grid>
         {/* 4 */}
                 <Grid item>
                 <AccessryCard
-                Brand = "MSI"
-                BrandName = "MSI2"
-                ImgSrc = "/Mouse/Clutch GM08.png"
-                Describe = " GeForce MX450 discrete graphics GeForce MX450"
-                PRICE = "$20"
+                Brand = "Asus TUF Gamming M5"
+                BrandName = "Asus TUF Gamming M5"
+                ImgSrc = "/Mouse/Asus TUF Gamming M5.png"
+                Describe = " Asus Gamming Mouse"
+                PRICE = "$45"
                 />
                 </Grid>
         {/* 5 */}
                 <Grid item>
                 <AccessryCard
-                Brand = "MSI"
-                BrandName = "MSI2"
-                ImgSrc = "/Mouse/Clutch GM08.png"
-                Describe = " GeForce MX450 discrete graphics GeForce MX450"
-                PRICE = "$20"
+                Brand = "Lenovo Legion "
+                BrandName = "Lenovo Legion"
+                ImgSrc = "/Mouse/Lenovo Legion.jpg"
+                Describe = " Lenovo Legion M200 RGB Gaming Mouse"
+                PRICE = "$45"
                 />
                 </Grid>
         {/* 6 */}
                 <Grid item>
                 <AccessryCard
-                Brand = "MSI"
-                BrandName = "MSI2"
-                ImgSrc = "/Mouse/Clutch GM08.png"
-                Describe = " GeForce MX450 discrete graphics GeForce MX450 "
-                PRICE = "$20"
+                Brand = "Asus TUF Gamming M5"
+                BrandName = "Asus TUF Gamming M5"
+                ImgSrc = "/Mouse/Asus TUF Gamming M5.png"
+                Describe = " Asus Gamming Mouse"
+                PRICE = "$45"
                 />
                 </Grid>
         {/* 7 */}
         <Grid item>
                 <AccessryCard
-                Brand = "MSI"
-                BrandName = "MSI2"
+                BrandName = "Clutch GM08"
                 ImgSrc = "/Mouse/Clutch GM08.png"
-                Describe = " GeForce MX450 discrete graphics GeForce MX450"
-                PRICE = "$20"
+                Describe = " MSI Gamming Mouse "
+                PRICE = "$70"
                 />
                 </Grid>
         {/* 8 */}
         <Grid item>
                 <AccessryCard
-                Brand = "MSI"
-                BrandName = "MSI2"
-                ImgSrc = "/Mouse/Clutch GM08.png"
-                Describe = " GeForce MX450 discrete graphics GeForce MX450"
-                PRICE = "$20"
+                Brand = "Lenovo Legion "
+                BrandName = "Lenovo Legion"
+                ImgSrc = "/Mouse/Lenovo Legion.jpg"
+                Describe = " Lenovo Legion M200 RGB Gaming Mouse"
+                PRICE = "$45"
                 />
                 </Grid>
                 </Grid>
