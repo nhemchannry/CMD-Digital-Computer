@@ -10,18 +10,17 @@ export default function Lenovo_Desktop()
 {/* 1*/}
         <Grid item>
         <ProductCard
-        Brand = "Lenovo"
-        Title = "Lenovo_Y520 "
-        ImgSrc ="/Lenovo/Lenovo_Y520.jpg"
+        Brand = "Lenovo Legion"
+        Title = "Lenovo Legion "
+        ImgSrc ="/Lenovo/LenovoDesktop/Lenovo Legion.jpg"
         OS ="OS:Windows 10 Pro"
-        CPU="CPU: 7th Gen Intel® Core™ i7 processor"
-        VGA="VGA: GeForce® GTX 1050Ti 8GB SUPER™ with Max-Q Design"
-        RAM="RAM: 16G DDR4"
-        HDD=" HDD: 2T + 256 SSD M2"
-        SREEN=" SREEN: 17.3 Full HD (1920x1080), IPS-level gaming panel"
-        OTHER="300Hz refresh rate gaming display 
-        Per-Key RGB gaming keyboard by SteelSeries "
-        PRICE ="$1279"
+        CPU="CPU: Intel® Core™ i7-11700F"
+        VGA="VGA: NVIDIA® GeForce® GTX 1660 Super 6GB"
+        RAM="RAM: 8G DDR4"
+        HDD=" HDD: 512 SSD M2"
+        SREEN=" Warranty : 1 Year "
+        OTHER="Gaming PC with 11th"
+        PRICE ="$1457"
         />
         </Grid>
 
@@ -29,87 +28,82 @@ export default function Lenovo_Desktop()
 
         <Grid item>
         <ProductCard
-        Brand = "Lenovo"
-        Title = "Lenovo_Y520 "
-        ImgSrc ="/Lenovo/Lenovo_Y520.jpg"
+        Brand = "Lenovo Legion"
+        Title = "Lenovo Legion "
+        ImgSrc ="/Lenovo/LenovoDesktop/Lenovo Legion 2.jpg"
         OS ="OS:Windows 10 Pro"
-        CPU="CPU: 7th Gen Intel® Core™ i7 processor"
-        VGA="VGA: GeForce® GTX 1050Ti 8GB SUPER™ with Max-Q Design"
-        RAM="RAM: 16G DDR4"
-        HDD=" HDD: 2T + 256 SSD M2"
-        SREEN=" SREEN: 17.3 Full HD (1920x1080), IPS-level gaming panel"
-        OTHER="300Hz refresh rate gaming display 
-        Per-Key RGB gaming keyboard by SteelSeries "
-        PRICE ="$1279"
+        CPU="CPU: Intel® Core™ i7-11700F"
+        VGA="VGA: NVIDIA® GeForce® GTX 1660 Super 6GB"
+        RAM="RAM: 8G DDR4"
+        HDD=" HDD: 512 SSD M2"
+        SREEN=" Warranty : 1 Year "
+        OTHER="Gaming PC with 11th"
+        PRICE ="$1457"
         />
        
         </Grid>
 {/* 3 */}
         <Grid item>
         <ProductCard
-        Brand = "Lenovo"
-        Title = "Lenovo_Y520 "
-        ImgSrc ="/Lenovo/Lenovo_Y520.jpg"
+        Brand = "Lenovo Legion"
+        Title = "Lenovo Legion "
+        ImgSrc ="/Lenovo/LenovoDesktop/Lenovo Legion.jpg"
         OS ="OS:Windows 10 Pro"
-        CPU="CPU: 7th Gen Intel® Core™ i7 processor"
-        VGA="VGA: GeForce® GTX 1050Ti 8GB SUPER™ with Max-Q Design"
-        RAM="RAM: 16G DDR4"
-        HDD=" HDD: 2T + 256 SSD M2"
-        SREEN=" SREEN: 17.3 Full HD (1920x1080), IPS-level gaming panel"
-        OTHER="300Hz refresh rate gaming display 
-        Per-Key RGB gaming keyboard by SteelSeries "
-        PRICE ="$1279"
+        CPU="CPU: Intel® Core™ i7-11700F"
+        VGA="VGA: NVIDIA® GeForce® GTX 1660 Super 6GB"
+        RAM="RAM: 8G DDR4"
+        HDD=" HDD: 512 SSD M2"
+        SREEN=" Warranty : 1 Year "
+        OTHER="Gaming PC with 11th"
+        PRICE ="$1457"
         />
         </Grid>
 {/* 4 */}
         <Grid item>
         <ProductCard
-        Brand = "Lenovo"
-        Title = "Lenovo_Y520 "
-        ImgSrc ="/Lenovo/Lenovo_Y520.jpg"
+        Brand = "Lenovo Legion"
+        Title = "Lenovo Legion "
+        ImgSrc ="/Lenovo/LenovoDesktop/Lenovo Legion 2.jpg"
         OS ="OS:Windows 10 Pro"
-        CPU="CPU: 7th Gen Intel® Core™ i7 processor"
-        VGA="VGA: GeForce® GTX 1050Ti 8GB SUPER™ with Max-Q Design"
-        RAM="RAM: 16G DDR4"
-        HDD=" HDD: 2T + 256 SSD M2"
-        SREEN=" SREEN: 17.3 Full HD (1920x1080), IPS-level gaming panel"
-        OTHER="300Hz refresh rate gaming display 
-        Per-Key RGB gaming keyboard by SteelSeries "
-        PRICE ="$1279"
+        CPU="CPU: Intel® Core™ i7-11700F"
+        VGA="VGA: NVIDIA® GeForce® GTX 1660 Super 6GB"
+        RAM="RAM: 8G DDR4"
+        HDD=" HDD: 512 SSD M2"
+        SREEN=" Warranty : 1 Year "
+        OTHER="Gaming PC with 11th"
+        PRICE ="$1457"
         />
         </Grid>
 {/* 5 */}
         <Grid item>
         <ProductCard
-        Brand = "Lenovo"
-        Title = "Lenovo_Y520 "
-        ImgSrc ="/Lenovo/Lenovo_Y520.jpg"
+        Brand = "Lenovo Legion"
+        Title = "Lenovo Legion "
+        ImgSrc ="/Lenovo/LenovoDesktop/Lenovo Legion.jpg"
         OS ="OS:Windows 10 Pro"
-        CPU="CPU: 7th Gen Intel® Core™ i7 processor"
-        VGA="VGA: GeForce® GTX 1050Ti 8GB SUPER™ with Max-Q Design"
-        RAM="RAM: 16G DDR4"
-        HDD=" HDD: 2T + 256 SSD M2"
-        SREEN=" SREEN: 17.3 Full HD (1920x1080), IPS-level gaming panel"
-        OTHER="300Hz refresh rate gaming display 
-        Per-Key RGB gaming keyboard by SteelSeries "
-        PRICE ="$1279"
+        CPU="CPU: Intel® Core™ i7-11700F"
+        VGA="VGA: NVIDIA® GeForce® GTX 1660 Super 6GB"
+        RAM="RAM: 8G DDR4"
+        HDD=" HDD: 512 SSD M2"
+        SREEN=" Warranty : 1 Year "
+        OTHER="Gaming PC with 11th"
+        PRICE ="$1457"
         />
         </Grid>
 {/* 6 */}
         <Grid item>
         <ProductCard
-        Brand = "Lenovo"
-        Title = "Lenovo_Y520 "
-        ImgSrc ="/Lenovo/Lenovo_Y520.jpg"
+        Brand = "Lenovo Legion"
+        Title = "Lenovo Legion "
+        ImgSrc ="/Lenovo/LenovoDesktop/Lenovo Legion 2.jpg"
         OS ="OS:Windows 10 Pro"
-        CPU="CPU: 7th Gen Intel® Core™ i7 processor"
-        VGA="VGA: GeForce® GTX 1050Ti 8GB SUPER™ with Max-Q Design"
-        RAM="RAM: 16G DDR4"
-        HDD=" HDD: 2T + 256 SSD M2"
-        SREEN=" SREEN: 17.3 Full HD (1920x1080), IPS-level gaming panel"
-        OTHER="300Hz refresh rate gaming display 
-        Per-Key RGB gaming keyboard by SteelSeries "
-        PRICE ="$1279"
+        CPU="CPU: Intel® Core™ i7-11700F"
+        VGA="VGA: NVIDIA® GeForce® GTX 1660 Super 6GB"
+        RAM="RAM: 8G DDR4"
+        HDD=" HDD: 512 SSD M2"
+        SREEN=" Warranty : 1 Year "
+        OTHER="Gaming PC with 11th"
+        PRICE ="$1457"
         />
         </Grid>
         </Grid>
