@@ -10,9 +10,9 @@ export default function Bag()
         {/* 1*/}
                 <Grid item>
                 <AccessryCard
-                BrandName = "HyperX"
-                ImgSrc = "/Keyboard/HyperX.jpg"
-                Describe = " HyperX Gamming Keyboard "
+                BrandName = "Alienware Bag"
+                ImgSrc = "/Bag/Alienware Bag.jpg"
+                Describe = " Alienware Bag "
                 PRICE = "$99"
                 />
                 </Grid>
@@ -21,69 +21,68 @@ export default function Bag()
         
                 <Grid item>
                 <AccessryCard
-                Brand = "HAVIT KB487L TKL "
-                BrandName = "HAVIT KB487L TKL"
-                ImgSrc = "/Mouse/HAVIT KB487L TKL.jpg"
-                Describe = " Keyboard with 89 Keys PBT Keycaps"
-                PRICE = "$42.99"
+                BrandName = "Legion Lenovo Bag"
+                ImgSrc = "/Bag/Legion Lenovo Bag.jpg"
+                Describe = " Legion Lenovo Bag.jpg"
+                PRICE = "$49"
                 />
                 </Grid>
         {/* 3 */}
                 <Grid item>
                 <AccessryCard
-                BrandName = "MSI S12"
-                ImgSrc = "/Mouse/MSI S12.jpg"
-                Describe = " MSI Gamming Mouse "
-                PRICE = "$70"
+                BrandName = "Asus ROG Bag"
+                ImgSrc = "/Bag/Asus ROG Bag.jpg"
+                Describe = " Asus ROG Bag"
+                PRICE = "$69"
                 />
                 </Grid>
         {/* 4 */}
                 <Grid item>
                 <AccessryCard
-                Brand = "Asus TUF Gamming M5"
-                BrandName = "Asus TUF Gamming M5"
-                ImgSrc = "/Mouse/Asus TUF Gamming M5.png"
-                Describe = " Asus Gamming Mouse"
-                PRICE = "$45"
+                Brand = "MSI GAMMING BAG "
+                BrandName = "MSI GAMMING BAG"
+                ImgSrc = "/Bag/MSI GAMMING BAG.png"
+                Describe = " MSI GAMMING BAG"
+                PRICE = "$22.99"
                 />
                 </Grid>
-        {/* 5 */}
+        {/* 5*/}
                 <Grid item>
                 <AccessryCard
-                Brand = "Lenovo Legion "
-                BrandName = "Lenovo Legion"
-                ImgSrc = "/Mouse/Lenovo Legion.jpg"
-                Describe = " Lenovo Legion M200 RGB Gaming Mouse"
-                PRICE = "$45"
+                BrandName = "Asus ROG Bag"
+                ImgSrc = "/Bag/Asus ROG Bag.jpg"
+                Describe = " Asus ROG Bag"
+                PRICE = "$69"
                 />
                 </Grid>
+        
         {/* 6 */}
+        
                 <Grid item>
                 <AccessryCard
-                Brand = "Asus TUF Gamming M5"
-                BrandName = "Asus TUF Gamming M5"
-                ImgSrc = "/Mouse/Asus TUF Gamming M5.png"
-                Describe = " Asus Gamming Mouse"
-                PRICE = "$45"
+                Brand = "MSI GAMMING BAG "
+                BrandName = "MSI GAMMING BAG"
+                ImgSrc = "/Bag/MSI GAMMING BAG.png"
+                Describe = " MSI GAMMING BAG"
+                PRICE = "$22.99"
                 />
                 </Grid>
         {/* 7 */}
-        <Grid item>
+                <Grid item>
                 <AccessryCard
-                BrandName = "Clutch GM08"
-                ImgSrc = "/Mouse/Clutch GM08.png"
-                Describe = " MSI Gamming Mouse "
-                PRICE = "$70"
+                BrandName = "Alienware Bag"
+                ImgSrc = "/Bag/Alienware Bag.jpg"
+                Describe = " Alienware Bag "
+                PRICE = "$99"
                 />
                 </Grid>
         {/* 8 */}
-        <Grid item>
+                <Grid item>
                 <AccessryCard
-                Brand = "Lenovo Legion "
-                BrandName = "Lenovo Legion"
-                ImgSrc = "/Mouse/Lenovo Legion.jpg"
-                Describe = " Lenovo Legion M200 RGB Gaming Mouse"
-                PRICE = "$45"
+                BrandName = "Legion Lenovo Bag"
+                ImgSrc = "/Bag/Legion Lenovo Bag.jpg"
+                Describe = " Legion Lenovo Bag.jpg"
+                PRICE = "$49"
                 />
                 </Grid>
                 </Grid>
