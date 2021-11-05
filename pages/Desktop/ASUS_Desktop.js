@@ -10,16 +10,16 @@ export default function Asus_Desktop()
 {/* 1*/}
         <Grid item>
         <ProductCard
-        Brand = "Asus ROG G703GX-E5003T"
-        Title = "ROG G703GX-E5003T "
-        ImgSrc ="/ASUS/ROG G703.jpg"
+        Brand = "ROG Strix GT35"
+        Title = "ROG Strix GT35 "
+        ImgSrc ="/ASUS/AsusDesktop/ROG Strix GT35.jpg"
         OS ="OS: Windows 10 Pro"
         CPU="CPU: 8th Gen Intel® Core™ i9"
-        VGA="VGA: GeForce RTX™ 2080"
-        RAM="RAM: 8G DDR4"
+        VGA="VGA: GeForce RTX™ 3080"
+        RAM="RAM: 32G DDR4"
         HDD=" HDD: 1TB M.2 "
-        SREEN=" SREEN: 17.3 Full HD (1920x1080), IPS-level gaming panel"
-        OTHER="RGB KEY"
+        SREEN=" 4x DDR4 SO-DIMM slot"
+        OTHER=" 4x M.2 connector for storage"
         PRICE ="$2099"
         />
         </Grid>
@@ -28,81 +28,81 @@ export default function Asus_Desktop()
 
         <Grid item>
         <ProductCard
-        Brand = "Asus Zenbook 14X"
-        Title = "Zenbook 14X OLD "
-        ImgSrc ="/ASUS/Zenbook 14X OLD.png"
-        OS ="OS:Windows 10 Pro"
-        CPU="CPU: 11th gen Intel® Core™ i7 processor"
-        VGA="VGA: Up to NVIDIA® GeForce MX450 discrete graphics"
+        Brand = "ROG Strix GL10cs Gaming"
+        Title = "ROG Strix GL10cs Gaming.jpg "
+        ImgSrc ="/ASUS/AsusDesktop/ROG Strix GL10cs Gaming.jpg"
+        OS ="OS: Windows 10 Pro"
+        CPU="CPU: 10th Gen Intel® Core™ i9"
+        VGA="VGA: GeForce RTX™ 2080"
         RAM="RAM: 16G DDR4"
-        HDD=" HDD: 1T SSD M2"
-        SREEN=" SREEN:  3840 x 2400 4K UHD resolution"
-        OTHER="180˚ ErgoLift hinge for easy sharing "
-        PRICE ="$799"
+        HDD=" HDD: 1TB M.2 "
+        SREEN=" 4x DDR4 SO-DIMM slot"
+        OTHER=" 4x M.2 connector for storage"
+        PRICE ="$1099"
         />
         </Grid>
 {/* 3 */}
         <Grid item>
         <ProductCard
-        Brand = "Asus ROG G703GX-E5003T"
-        Title = "ROG G703GX-E5003T "
-        ImgSrc ="/ASUS/ROG G703.jpg"
+        Brand = "ROG Strix GA35"
+        Title = "ROG Strix GTA35 "
+        ImgSrc ="/ASUS/AsusDesktop/ROG Strix GT35.jpg"
         OS ="OS: Windows 10 Pro"
         CPU="CPU: 8th Gen Intel® Core™ i9"
         VGA="VGA: GeForce RTX™ 2080"
-        RAM="RAM: 8G DDR4"
-        HDD=" HDD: 1TB M.2 "
-        SREEN=" SREEN: 17.3 Full HD (1920x1080), IPS-level gaming panel"
-        OTHER="RGB KEY"
-        PRICE ="$2099"
+        RAM="RAM: 32G DDR4"
+        HDD=" HDD: 512G M.2 "
+        SREEN=" 4x DDR4 SO-DIMM slot"
+        OTHER=" 4x M.2 connector for storage"
+        PRICE ="$999"
         />
         </Grid>
 {/* 4 */}
         <Grid item>
         <ProductCard
-        Brand = "Asus Zenbook 14X"
-        Title = "Zenbook 14X OLD "
-        ImgSrc ="/ASUS/Zenbook 14X OLD.png"
-        OS ="OS:Windows 10 Pro"
-        CPU="CPU: 11th gen Intel® Core™ i7 processor"
-        VGA="VGA: Up to NVIDIA® GeForce MX450 discrete graphics"
-        RAM="RAM: 16G DDR4"
-        HDD=" HDD: 1T SSD M2"
-        SREEN=" SREEN:  3840 x 2400 4K UHD resolution"
-        OTHER="180˚ ErgoLift hinge for easy sharing "
-        PRICE ="$799"
+        Brand = "ROG Strix GT35"
+        Title = "ROG Strix GT35 "
+        ImgSrc ="/ASUS/AsusDesktop/ROG Strix GT35.jpg"
+        OS ="OS: Windows 10 Pro"
+        CPU="CPU: 8th Gen Intel® Core™ i9"
+        VGA="VGA: GeForce RTX™ 3080"
+        RAM="RAM: 32G DDR4"
+        HDD=" HDD: 1TB M.2 "
+        SREEN=" 4x DDR4 SO-DIMM slot"
+        OTHER=" 4x M.2 connector for storage"
+        PRICE ="$2099"
         />
         </Grid>
 {/* 5 */}
         <Grid item>
         <ProductCard
-        Brand = "Asus ROG G703GX-E5003T"
-        Title = "ROG G703GX-E5003T "
-        ImgSrc ="/ASUS/ROG G703.jpg"
+        Brand = "ROG Strix GT35"
+        Title = "ROG Strix GT35 "
+        ImgSrc ="/ASUS/AsusDesktop/ROG Strix GT35.jpg"
         OS ="OS: Windows 10 Pro"
         CPU="CPU: 8th Gen Intel® Core™ i9"
-        VGA="VGA: GeForce RTX™ 2080"
-        RAM="RAM: 8G DDR4"
+        VGA="VGA: GeForce RTX™ 3080"
+        RAM="RAM: 32G DDR4"
         HDD=" HDD: 1TB M.2 "
-        SREEN=" SREEN: 17.3 Full HD (1920x1080), IPS-level gaming panel"
-        OTHER="RGB KEY"
+        SREEN=" 4x DDR4 SO-DIMM slot"
+        OTHER=" 4x M.2 connector for storage"
         PRICE ="$2099"
         />
         </Grid>
 {/* 6 */}
         <Grid item>
         <ProductCard
-        Brand = "Asus Zenbook 14X"
-        Title = "Zenbook 14X OLD "
-        ImgSrc ="/ASUS/Zenbook 14X OLD.png"
-        OS ="OS:Windows 10 Pro"
-        CPU="CPU: 11th gen Intel® Core™ i7 processor"
-        VGA="VGA: Up to NVIDIA® GeForce MX450 discrete graphics"
-        RAM="RAM: 16G DDR4"
-        HDD=" HDD: 1T SSD M2"
-        SREEN=" SREEN:  3840 x 2400 4K UHD resolution"
-        OTHER="180˚ ErgoLift hinge for easy sharing "
-        PRICE ="$799"
+        Brand = "ROG Strix GT35"
+        Title = "ROG Strix GT35 "
+        ImgSrc ="/ASUS/AsusDesktop/ROG Strix GT35.jpg"
+        OS ="OS: Windows 10 Pro"
+        CPU="CPU: 8th Gen Intel® Core™ i9"
+        VGA="VGA: GeForce RTX™ 3080"
+        RAM="RAM: 32G DDR4"
+        HDD=" HDD: 1TB M.2 "
+        SREEN=" 4x DDR4 SO-DIMM slot"
+        OTHER=" 4x M.2 connector for storage"
+        PRICE ="$2099"
         />
         </Grid>
         </Grid>

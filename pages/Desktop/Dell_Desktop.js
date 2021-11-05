@@ -10,17 +10,17 @@ export default function Dell_Desktop()
 {/* 1*/}
         <Grid item>
         <ProductCard
-        Brand = "Dell"
-        Title = "Latitude 9420 "
-        ImgSrc ="/Dell/Dell_Latitude__9420_3_view.0.jpg"
+        Brand = "Alienware gaming"
+        Title = "Alienware gaming"
+        ImgSrc ="/Dell/DellDesktop/Alienware gaming.jpg"
         OS ="OS: Windows 10 Pro"
-        CPU="CPU: 8th Gen Intel® Core™ i7"
-        VGA="VGA: GeForce RTX™ 1080"
-        RAM="RAM: 32GB DDR4"
-        HDD=" HDD: 1TB M.2 "
-        SREEN=" SREEN: 15.3 Full HD (1920x1080), IPS-level gaming panel"
-        OTHER="RGB KEY"
-        PRICE =" $1,949"
+        CPU="CPU: 10th Gen Intel® Core™ i5-10400 processor"
+        VGA="VGA: Intel® UHD Graphics 630 "
+        RAM="RAM: 8 GB, 1 x 8 GB, DDR4, 2666 MHz"
+        HDD=" HDD: 512G M.2 "
+        SREEN="1 Year Hardware Service"
+        OTHER=" USB 3.2"
+        PRICE =" $1099"
         />
         </Grid>
 
@@ -28,81 +28,81 @@ export default function Dell_Desktop()
 
         <Grid item>
         <ProductCard
-        Brand = "Dell"
-        Title = "Latitude 9420 "
-        ImgSrc ="/Dell/Dell_Latitude__9420_3_view.0.jpg"
+        Brand = "Alienware gaming"
+        Title = "Alienware gaming"
+        ImgSrc ="/Dell/DellDesktop/Alienware gaming pc.jpg"
         OS ="OS: Windows 10 Pro"
-        CPU="CPU: 8th Gen Intel® Core™ i7"
-        VGA="VGA: GeForce RTX™ 1080"
-        RAM="RAM: 32GB DDR4"
-        HDD=" HDD: 1TB M.2 "
-        SREEN=" SREEN: 15.3 Full HD (1920x1080), IPS-level gaming panel"
-        OTHER="RGB KEY"
-        PRICE =" $1,949"
+        CPU="CPU: 10th Gen Intel® Core™ i5-10400 processor"
+        VGA="VGA: Intel® UHD Graphics 630 "
+        RAM="RAM: 8 GB, 1 x 8 GB, DDR4, 2666 MHz"
+        HDD=" HDD: 512G M.2 "
+        SREEN="1 Year Hardware Service"
+        OTHER=" USB 3.2"
+        PRICE =" $1099"
         />
         </Grid>
 {/* 3 */}
         <Grid item>
         <ProductCard
-        Brand = "Dell"
-        Title = "Latitude 9420 "
-        ImgSrc ="/Dell/Dell_Latitude__9420_3_view.0.jpg"
+        Brand = "Vostro 5890"
+        Title = "Vostro 5890 "
+        ImgSrc ="/Dell/DellDesktop/Vostro 5890.jpg"
         OS ="OS: Windows 10 Pro"
-        CPU="CPU: 8th Gen Intel® Core™ i7"
-        VGA="VGA: GeForce RTX™ 1080"
-        RAM="RAM: 32GB DDR4"
-        HDD=" HDD: 1TB M.2 "
-        SREEN=" SREEN: 15.3 Full HD (1920x1080), IPS-level gaming panel"
-        OTHER="RGB KEY"
-        PRICE =" $1,949"
+        CPU="CPU: 10th Gen Intel® Core™ i5-10400 processor"
+        VGA="VGA: Intel® UHD Graphics 630 "
+        RAM="RAM: 8 GB, 1 x 8 GB, DDR4, 2666 MHz"
+        HDD=" HDD: 512G M.2 "
+        SREEN="1 Year Hardware Service"
+        OTHER=" USB 3.2"
+        PRICE =" $769"
         />
         </Grid>
 {/* 4 */}
         <Grid item>
         <ProductCard
-        Brand = "Dell"
-        Title = "Latitude 9420 "
-        ImgSrc ="/Dell/Dell_Latitude__9420_3_view.0.jpg"
+        Brand = "Alienware gaming"
+        Title = "Alienware gaming"
+        ImgSrc ="/Dell/DellDesktop/Alienware gaming pc.jpg"
         OS ="OS: Windows 10 Pro"
-        CPU="CPU: 8th Gen Intel® Core™ i7"
-        VGA="VGA: GeForce RTX™ 1080"
-        RAM="RAM: 32GB DDR4"
-        HDD=" HDD: 1TB M.2 "
-        SREEN=" SREEN: 15.3 Full HD (1920x1080), IPS-level gaming panel"
-        OTHER="RGB KEY"
-        PRICE =" $1,949"
+        CPU="CPU: 10th Gen Intel® Core™ i5-10400 processor"
+        VGA="VGA: Intel® UHD Graphics 630 "
+        RAM="RAM: 8 GB, 1 x 8 GB, DDR4, 2666 MHz"
+        HDD=" HDD: 512G M.2 "
+        SREEN="1 Year Hardware Service"
+        OTHER=" USB 3.2"
+        PRICE =" $1099"
         />
         </Grid>
 {/* 5 */}
         <Grid item>
         <ProductCard
-        Brand = "Dell"
-        Title = "Latitude 9420 "
-        ImgSrc ="/Dell/Dell_Latitude__9420_3_view.0.jpg"
+        Brand = "Vostro 5890"
+        Title = "Vostro 5890 "
+        ImgSrc ="/Dell/DellDesktop/Vostro 5890.jpg"
         OS ="OS: Windows 10 Pro"
-        CPU="CPU: 8th Gen Intel® Core™ i7"
-        VGA="VGA: GeForce RTX™ 1080"
-        RAM="RAM: 32GB DDR4"
-        HDD=" HDD: 1TB M.2 "
-        SREEN=" SREEN: 15.3 Full HD (1920x1080), IPS-level gaming panel"
-        OTHER="RGB KEY"
-        PRICE =" $1,949"
+        CPU="CPU: 10th Gen Intel® Core™ i5-10400 processor"
+        VGA="VGA: Intel® UHD Graphics 630 "
+        RAM="RAM: 8 GB, 1 x 8 GB, DDR4, 2666 MHz"
+        HDD=" HDD: 512G M.2 "
+        SREEN="1 Year Hardware Service"
+        OTHER=" USB 3.2"
+        PRICE =" $769"
         />
         </Grid>
 {/* 6 */}
         <Grid item>
         <ProductCard
-        Brand = "Dell"
-        Title = "Latitude 9420 "
-        ImgSrc ="/Dell/Dell_Latitude__9420_3_view.0.jpg"
+        Brand = "Alienware gaming"
+        Title = "Alienware gaming"
+        ImgSrc ="/Dell/DellDesktop/Alienware gaming pc.jpg"
         OS ="OS: Windows 10 Pro"
-        CPU="CPU: 8th Gen Intel® Core™ i7"
-        VGA="VGA: GeForce RTX™ 1080"
-        RAM="RAM: 32GB DDR4"
-        HDD=" HDD: 1TB M.2 "
-        SREEN=" SREEN: 15.3 Full HD (1920x1080), IPS-level gaming panel"
-        OTHER="RGB KEY"
-        PRICE =" $1,949"
+        CPU="CPU: 10th Gen Intel® Core™ i5-10400 processor"
+        VGA="VGA: Intel® UHD Graphics 630 "
+        RAM="RAM: 8 GB, 1 x 8 GB, DDR4, 2666 MHz"
+        HDD=" HDD: 512G M.2 "
+        SREEN="1 Year Hardware Service"
+        OTHER=" USB 3.2"
+        PRICE =" $1099"
         />
         </Grid>
         </Grid>
