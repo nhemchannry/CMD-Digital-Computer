@@ -108,7 +108,7 @@ export default function MSI()
         SREEN=" SREEN:  UHD (3840x2160), 100% AdobeRGB, IPS-level"
         OTHER="4 fans and 11 heat pipes
         Mystic Light underglow and Per-Key RGB gaming keyboard by SteelSeries "
-        PRICE ="$7999"
+        PRICE ="$999"
         />
         </Grid>
         </Grid>
