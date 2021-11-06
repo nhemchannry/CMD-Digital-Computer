@@ -1,7 +1,6 @@
-.aboutT{
-    align-items: center;
-    width: 35%;
-    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
-    padding:  30px;
-    height: 60vh;
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Cinzel+Decorative:wght@700&family=Libre+Caslon+Text&family=Merriweather+Sans:wght@363;400&family=Racing+Sans+One&family=Staatliches&display=swap');
+.heading{
+    font-family: 'Bayon', sans-serif;
+    font-family: 'Libre Caslon Text', serif;
+    font-family: 'Merriweather Sans', sans-serif;
 }
