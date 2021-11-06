@@ -164,15 +164,6 @@ export default function AppBars() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar>
-          <IconButton
-            size="large"
-            edge="start"
-            color="inherit"
-            aria-label="open drawer"
-            sx={{ mr: 2 }}
-          >
-            <MenuIcon />
-          </IconButton>
           <Image src="/logo.png" alt="logo" width="50" height="50"/>
           <Typography
             variant="h6"
@@ -191,8 +182,8 @@ export default function AppBars() {
               inputProps={{ 'aria-label': 'search' }}
             />
           </Search>
-          <Desktops/>
           <Loptops/>
+          <Desktops/>
           <ACCESERYS/>
           <ToggleButton href="/">CONTACT US</ToggleButton>
           <ToggleButton href="/">ABOUT</ToggleButton>
