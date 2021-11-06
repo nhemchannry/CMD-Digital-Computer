@@ -84,7 +84,7 @@ const products = [
                                                                 },
        
 ]
-export default function Mac_Desktop()
+export default function iMac()
 {
         const  {search} = React.useContext(SearchContext)
         return (
