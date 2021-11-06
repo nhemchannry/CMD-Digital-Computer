@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Link from 'next/link';
 import { styled, alpha } from '@mui/material/styles';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -170,7 +171,9 @@ export default function AppBars(){
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="fixed">
         <Toolbar>
+        <Link href="../home">
           <Image src="/logo.png" alt="logo" width="50" height="50"/>
+        </Link>
           <Typography
             variant="h6"
             noWrap
