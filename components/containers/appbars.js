@@ -1,7 +1,12 @@
 import * as React from 'react';
-import { styled, alpha } from '@material-ui/core/styles';
-import {AppBar,Box,Toolbar} from  '@material-ui/core'
-import {IconButton,Typography,InputBase,Badge,Button} from '@material-ui/core';
+import { styled, alpha } from '@mui/material/styles';
+import AppBar from '@mui/material/AppBar';
+import Box from '@mui/material/Box';
+import Toolbar from '@mui/material/Toolbar';
+import IconButton from '@mui/material/IconButton';
+import Typography from '@mui/material/Typography';
+import InputBase from '@mui/material/InputBase';
+import Badge from '@mui/material/Badge';
 import MenuItem from '@mui/material/MenuItem';
 import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -10,9 +15,51 @@ import AccountCircle from '@mui/icons-material/AccountCircle';
 import MailIcon from '@mui/icons-material/Mail';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import MoreIcon from '@mui/icons-material/MoreVert';
-
+import { ToggleButton } from '@mui/material';
 import Image from "next/image";
-import LeftBar from './leftbar';
+import Desktops from './buttondesks';
+import Loptops from './buttonlops';
+import ACCESERYS from './buttonacces';
+
+const Search = styled('div')(({ theme }) => ({
+  position: 'relative',
+  borderRadius: theme.shape.borderRadius,
+   backgroundColor: alpha(theme.palette.common.white, 0.15),
+  '&:hover': {
+    backgroundColor: alpha(theme.palette.common.white, 0.25),
+  },
+  marginRight: theme.spacing(2),
+  marginLeft: 0,
+  width: '100%',
+  [theme.breakpoints.up('sm')]: {
+    marginLeft: theme.spacing(3),
+    width: 'auto',
+  },
+}));
+
+const SearchIconWrapper = styled('div')(({ theme }) => ({
+  padding: theme.spacing(2, 2),
+  height: '100%',
+  position: 'absolute',
+  pointerEvents: 'none',
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+}));
+
+const StyledInputBase = styled(InputBase)(({ theme }) => ({
+  color: 'inherit',
+  '& .MuiInputBase-input': {
+    padding: theme.spacing(1, 1, 1, 0),
+    // vertical padding + font size from searchIcon
+    paddingLeft: `calc(1em + ${theme.spacing(4)})`,
+    transition: theme.transitions.create('width'),
+    width: '100%',
+    [theme.breakpoints.up('md')]: {
+      width: '20ch',
+    },
+  },
+}));
 
 export default function AppBars() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -117,29 +164,34 @@ export default function AppBars() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar>
-          <IconButton
-            size="large"
-            edge="start"
-            color="inherit"
-            aria-label="open drawer"
-            sx={{ mr: 2 }}
-          >
-            <MenuIcon />
-          </IconButton>
           <Image src="/logo.png" alt="logo" width="50" height="50"/>
           <Typography
             variant="h6"
             noWrap
             component="div"
-            sx={{ display: { xs: 'none', sm: 'block' } }}
+            sx={{ display: { xs: 'none', sm: 'block' },
+          fontFamily:"Times New Roman",
+          color:'#66304a'
+          
+        }}
           >
             CMD-COMPUTER
           </Typography>
-          <LeftBar/>
-          <Button href="/">CONTACT US</Button>
-          <Button href="/">Privacy</Button>
-          <Button href="/">ABOUT</Button>
-          <Button href="/login">CREATE ACCOUNT</Button>
+          <Search>
+            <SearchIconWrapper>
+              <SearchIcon />
+            </SearchIconWrapper>
+            <StyledInputBase
+              placeholder="Search…"
+              inputProps={{ 'aria-label': 'search' }}
+            />
+          </Search>
+          <Loptops/>
+          <Desktops/>
+          <ACCESERYS/>
+          <ToggleButton style={{marginRight: 20}} href="/contact">CONTACT US</ToggleButton>
+          <ToggleButton style={{marginRight: 20}} href="/about">ABOUT</ToggleButton>
+          <ToggleButton style={{marginRight: 20}} href="/register">CREATE ACCOUNT</ToggleButton>
 
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
