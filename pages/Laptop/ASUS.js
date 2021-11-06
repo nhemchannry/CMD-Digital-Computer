@@ -1,5 +1,7 @@
+import React from 'react'
 import ProductCard from "../../components/presentations/ProductCard"
 import { Grid } from "@material-ui/core"
+import {SearchContext} from  './../../contexts/SearchContext'
 
 const products = [
         {
@@ -16,7 +18,7 @@ const products = [
                 PRICE: "$2099"
         },
         {
-                Brand: "Asus Zenbook 14X",
+                Brand: "Asus Zenbook 13X",
                 Title: "Zenbook 14X OLD ",
                 ImgSrc: "/ASUS/Zenbook 14X OLD.png",
                 OS: "OS:Windows 10 Pro",
@@ -42,7 +44,7 @@ const products = [
                 PRICE: "$2099"
         },
         {
-                Brand: "Asus Zenbook 14X",
+                Brand: "MSI Zenbook 14X",
                 Title: "Zenbook 14X OLD ",
                 ImgSrc: "/ASUS/Zenbook 14X OLD.png",
                 OS: "OS:Windows 10 Pro",
@@ -83,12 +85,13 @@ const products = [
        
 ]
 export default function Asus() {
+        const  {search} = React.useContext(SearchContext)
         return (
                 <div>
 
                         <Grid container spacing={2}>
                                 {
-                                        products.map((item) => {
+                                        products.filter((item)=>item.Brand.includes(search)).map((item) => {
                                                 return (
                                                         <Grid item xs={12} sm={4} md={4} >
                                                                 <ProductCard
@@ -96,7 +99,7 @@ export default function Asus() {
                                                                         Title={item.Title}
                                                                         ImgSrc={item.ImgSrc}
                                                                         OS={item.OS}
-                                                                        CPU="CPU: 11th gen Intel® Core™ i7 processor"
+                                                                        CPU={item.CPU}
                                                                         VGA="VGA: Up to NVIDIA® GeForce MX450 discrete graphics"
                                                                         RAM="RAM: 16G DDR4"
                                                                         HDD=" HDD: 1T SSD M2"
@@ -107,6 +110,13 @@ export default function Asus() {
                                                         </Grid>
                                                 )
                                         })
+                                }
+                                {
+                                         products.filter((item)=>item.Brand.includes(search)).length===0&&(
+                                                 <div>
+                                                         <h1>Unknown</h1>
+                                                         </div>
+                                         )
                                 }
                         </Grid>
                         {/* <Grid container spacing ={0}>
