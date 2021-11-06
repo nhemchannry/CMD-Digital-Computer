@@ -118,7 +118,7 @@ export default function LoginForm(){
         <div className={classes.paper}>
           <Image 
           className={classes.avatar}
-          src="https://th.bing.com/th/id/OIP.5iQhybpa63ZBY6rM1kqVgwHaH7?pid=ImgDet&rs=1"
+          src="/CMD Digital Computer.png"
           alt="cmd logo"
           width={50}
           height={50} />
