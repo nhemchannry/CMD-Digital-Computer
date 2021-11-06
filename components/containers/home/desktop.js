@@ -7,7 +7,7 @@ import ImageDesktop3 from '../Imagedesktop/imagedesktop3';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    marginLeft: 200,
+    marginLeft: 65,
     display: 'flex',
     border: 2,
     boxShadow:1,
