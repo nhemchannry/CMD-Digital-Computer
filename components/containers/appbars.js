@@ -21,6 +21,7 @@ import Desktops from './buttondesks';
 import Loptops from './buttonlops';
 import ACCESERYS from './buttonacces';
 import {SearchContext} from './../../contexts/SearchContext'
+import {fireAuth} from "../../services/firebase";
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -70,6 +71,14 @@ export default function AppBars(){
   const isMenuOpen = Boolean(anchorEl);
   const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
 
+  const handleLogout=()=>{
+    fireAuth.signOut()
+    .then((res)=>{
+      router.push('/')
+    }).catch((err)=>{
+      console.error(err)
+    })
+  }
   const handleProfileMenuOpen = (event) => {
     setAnchorEl(event.currentTarget);
   };
@@ -108,9 +117,7 @@ export default function AppBars(){
       open={isMenuOpen}
       onClose={handleMenuClose}
     >
-      <MenuItem onClick={handleMenuClose}>Profile</MenuItem>
-      <MenuItem onClick={handleMenuClose}>My account</MenuItem>
-      <MenuItem onClick={handleMenuClose}>Logout </MenuItem>
+      <MenuItem onClick={handleLogout}>Sign Out</MenuItem>
     </Menu>
   );
 
