@@ -1,3 +1,13 @@
-.btn{
-    color: rgb(189, 12, 12);
+.loginForm{
+    width: 35%;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: rgb(255, 255, 255);
+    padding:  30px;
+    border-radius:  30px;
+    margin: auto;
+    height: 60vh;
+    margin-top: 10vh;
+}
+.emNpw{
+    margin-top: 50px;
 }
