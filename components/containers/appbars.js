@@ -20,6 +20,7 @@ import Image from "next/image";
 import Desktops from './buttondesks';
 import Loptops from './buttonlops';
 import ACCESERYS from './buttonacces';
+import {SearchContext} from './../../contexts/SearchContext'
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -61,9 +62,10 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   },
 }));
 
-export default function AppBars() {
+export default function AppBars(){
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
+  const {setSearch}=React.useContext(SearchContext)
 
   const isMenuOpen = Boolean(anchorEl);
   const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
@@ -85,6 +87,10 @@ export default function AppBars() {
     setMobileMoreAnchorEl(event.currentTarget);
   };
 
+
+  const handleSearch= (e)=>{
+      setSearch(e.target.value)
+  }
   const menuId = 'primary-search-account-menu';
   const renderMenu = (
     <Menu
@@ -162,7 +168,7 @@ export default function AppBars() {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+      <AppBar position="fixed">
         <Toolbar>
           <Image src="/logo.png" alt="logo" width="50" height="50"/>
           <Typography
@@ -182,6 +188,7 @@ export default function AppBars() {
               <SearchIcon />
             </SearchIconWrapper>
             <StyledInputBase
+              onChange={handleSearch}
               placeholder="Search…"
               inputProps={{ 'aria-label': 'search' }}
             />

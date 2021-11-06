@@ -51,7 +51,7 @@ export default function Contact(){
     return(
         <div className={classes.root}>
            <form onSubmit={handleSendEmail} className={classes.form}>
-               <h1>Message us anytime soon</h1>
+               <h1>Message us anytime</h1>
                <p>To have conversation with us, you need to fill the form</p>
            <TextField name="fullName" required className="input" id="outlined-basic" label="Name" type="text" variant="outlined" />
            <TextField name="email" required className="input" id="outlined-basic" label="Email" type="email" variant="outlined" />
