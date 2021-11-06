@@ -14,7 +14,7 @@ export default function NameCompany(){
     return(
         <div className={classes.root}>
             <h1>
-                CMD-COMPUTER
+                CMD DIGITAL COMPUTER
             </h1>
         </div>
     )
