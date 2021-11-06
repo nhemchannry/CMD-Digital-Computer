@@ -199,7 +199,7 @@ export default function AppBars(){
           <Loptops/>
           <Desktops/>
           <ACCESERYS/>
-          <ToggleButton style={{marginRight: 20}} href="/contact">CONTACT US</ToggleButton>
+          <ToggleButton style={{marginRight: 20,marginLeft:20}} href="/contact">CONTACT US</ToggleButton>
           <ToggleButton style={{marginRight: 20}} href="/about">ABOUT</ToggleButton>
           <ToggleButton style={{marginRight: 20}} href="/register">CREATE ACCOUNT</ToggleButton>
 

@@ -40,7 +40,7 @@ const products = [
                 RAM:"RAM: 16G DDR4",
                 HDD:" HDD: 1T SSD M2",
                 SREEN:" 15.6” Full HD (1920x1080), 240 Hz Refresh Rate, IPS-Level panel ",
-                OTHER:"2 fans and 11 heat pipes and Per-Key RGB gaming keyboard by SteelSeries ",
+                OTHER:"2 fans and RGB gaming keyboard by SteelSeries ",
                 PRICE :"$2099"
                                                 },
         {
@@ -89,7 +89,7 @@ export default function MSI()
 {
         const  {search} = React.useContext(SearchContext)
         return (
-                <div style={{ marginTop: 60}}>
+                <div style={{ marginTop: 80}}>
 
                         <Grid container spacing={2}>
                                 {
