@@ -25,7 +25,8 @@ export default function Desktop() {
 
   return (
     <div className={classes.root}>
-      <Paper className={classes.paper}><ImageDesktop/></Paper>
+      <Paper className={classes.paper}>
+      <ImageDesktop/></Paper>
       <Paper><ImageDesktop2/></Paper>
       <Paper><ImageDesktop3/></Paper>
 

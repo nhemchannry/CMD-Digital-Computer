@@ -9,34 +9,19 @@ import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
 
 const tutorialSteps = [
   {
-    label: 'MAC BOOK',
+    label: 'BAG',
     imgPath:
-      'https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/macbook-pro-13-og-202011?wid=600&hei=315&fmt=jpeg&qlt=95&.v=1604347427000',
+      'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.com%2FMSI-Urban-Raider-Backpack-Lightweight%2Fdp%2FB07JGHZHZS&psig=AOvVaw1ztUoEz8W2OOHXf4keL90A&ust=1636308826348000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCOjIrsqrhPQCFQAAAAAdAAAAABAD',
   },
   {
-    label: 'LENOVO',
+    label: 'HDD',
     imgPath:
-      'https://metro.co.uk/wp-content/uploads/2021/07/chassis-5289.jpg?quality=90&strip=all&zoom=1&resize=480%2C319',
+      'https://www.google.com/url?sa=i&url=https%3A%2F%2Fblocksandfiles.com%2F2021%2F02%2F18%2Ftoshiba-18tb-mg09-hdd%2F&psig=AOvVaw2egaD_iYciusxhYtc51Oz8&ust=1636308856533000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCIirwtirhPQCFQAAAAAdAAAAABAk',
   },
   {
-    label: 'DELL SPIRON GAMING',
+    label: 'SSD',
     imgPath:
-      'https://hothardware.com/ContentImages/Article/2738/content/small_dell_inspiron_5680_stock.jpg',
-  },
-  {
-    label: 'MSI MEG TRIDENT X',
-    imgPath:
-      'https://i.ytimg.com/vi/NFrR_xZ3yPo/maxresdefault.jpg',
-  },
-  {
-    label: 'MSI INFINITE X 1080',
-    imgPath:
-      'https://asset.msi.com/resize/image/global/product/product_8_20190108145456_5c34494035783.png62405b38c58fe0f07fcef2367d8a9ba1/600.png',
-  },
-  {
-    label: 'MSI INFINITE X 1080',
-    imgPath:
-      'https://asset.msi.com/resize/image/global/product/product_8_20190108145456_5c34494035783.png62405b38c58fe0f07fcef2367d8a9ba1/600.png',
+      'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.westerndigital.com%2Fen-ap%2Fproducts%2Finternal-drives%2Fwd-blue-sata-m-2-ssd&psig=AOvVaw2lie1RCexznVTT3E9KhHn5&ust=1636308909383000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCKCilfWrhPQCFQAAAAAdAAAAABAD',
   },
 ];
 
@@ -96,7 +81,7 @@ export default function ImageAccesery() {
       />
       <MobileStepper
       variant="dots"
-      steps={6}
+      steps={3}
       position="static"
       activeStep={activeStep}
       className={classes.root}

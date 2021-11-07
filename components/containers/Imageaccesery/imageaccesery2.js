@@ -9,34 +9,19 @@ import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
 
 const tutorialSteps = [
   {
-    label: 'MAC BOOK',
+    label: 'MOUSE',
     imgPath:
-      'https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/macbook-pro-13-og-202011?wid=600&hei=315&fmt=jpeg&qlt=95&.v=1604347427000',
+      'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.apple.com%2Fnz%2Fnewsroom%2F2020%2F03%2Fnew-macbook-air-has-more-to-love-and-is-now-just-999%2F&psig=AOvVaw2xVigugPC4XT909LzVtcBY&ust=1636308543209000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCNju3r6qhPQCFQAAAAAdAAAAABAD',
   },
   {
-    label: 'LENOVO',
+    label: 'KEYBOARD',
     imgPath:
-      'https://metro.co.uk/wp-content/uploads/2021/07/chassis-5289.jpg?quality=90&strip=all&zoom=1&resize=480%2C319',
+      'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.notebookcheck.net%2FLenovo-ThinkPad-L13-Yoga-Gen2-20VK000VGE.562743.0.html&psig=AOvVaw1F9p8TSQ0A0lr9LO5GrHbp&ust=1636308580454000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCOj6ptiqhPQCFQAAAAAdAAAAABAD',
   },
   {
-    label: 'DELL SPIRON GAMING',
+    label: 'FLASH',
     imgPath:
       'https://hothardware.com/ContentImages/Article/2738/content/small_dell_inspiron_5680_stock.jpg',
-  },
-  {
-    label: 'MSI MEG TRIDENT X',
-    imgPath:
-      'https://i.ytimg.com/vi/NFrR_xZ3yPo/maxresdefault.jpg',
-  },
-  {
-    label: 'MSI INFINITE X 1080',
-    imgPath:
-      'https://asset.msi.com/resize/image/global/product/product_8_20190108145456_5c34494035783.png62405b38c58fe0f07fcef2367d8a9ba1/600.png',
-  },
-  {
-    label: 'MSI INFINITE X 1080',
-    imgPath:
-      'https://asset.msi.com/resize/image/global/product/product_8_20190108145456_5c34494035783.png62405b38c58fe0f07fcef2367d8a9ba1/600.png',
   },
 ];
 

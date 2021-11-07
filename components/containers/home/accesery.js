@@ -26,11 +26,10 @@ export default function Accesery() {
 
   return (
     <div className={classes.root}>
-      <Paper className={classes.paper}><ImageAccesery/></Paper>
+      <Paper className={classes.paper}>
+        <ImageAccesery/></Paper>
       <Paper><ImageAccesery2/></Paper>
       <Paper><ImageAccesery3/></Paper>
-
-     
     </div>
   );
 }

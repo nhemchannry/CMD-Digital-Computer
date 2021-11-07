@@ -26,7 +26,9 @@ export default function Laptop() {
 
   return (
     <div className={classes.root}>
-      <Paper className={classes.paper}><ImageLaptop/></Paper>
+      <Paper className={classes.paper}>
+        
+        <ImageLaptop/></Paper>
       <Paper><ImageLaptop2/></Paper>
       <Paper><ImageLaptop3/></Paper>
 
