@@ -31,28 +31,63 @@ export default function Footers() {
         <div className={classes.root}>
             <Grid container spacing={2}>
                 <Grid style={{paddingLeft: 50}} item xs={12} sm={3}>
-                    <h1>DESKTOP</h1>
-                    <p>MSI</p>
-                    <p>DELL</p>
-                    <p>ASUS</p>
-                    <p>MAC</p>
-                    <p>LENOVO</p>
+                    <h1>LAPTOP</h1>
+                          <Link href = "/Laptop/MSI">
+                          <p>MSI</p>
+                          </Link>
+                          <Link href = "/Laptop/ASUS">
+                          <p>ASUS</p>
+                          </Link>
+                          <Link href = "/Laptop/Dell">
+                          <p>Dell</p>
+                          </Link>
+                          <Link href = "/Laptop/Lenovo">
+                          <p>Lenovo</p>
+                          </Link>
+                          <Link href = "/Laptop/MacBook">
+                          <p>Mac</p>
+                          </Link>
+                    
                 </Grid>
                 <Grid item xs={12} sm={2}>
-                    <h1>LAPTOP</h1>
-                    <p>MSI</p>
-                    <p>DELL</p>
-                    <p>ASUS</p>
-                    <p>MAC</p>
-                    <p>LENOVO</p>
+                <h1>DESKTOP</h1>
+                          <Link href = "/Desktop/MSI_Desktop">
+                          <p>MSI</p>
+                          </Link>
+                          <Link href = "/Desktop/ASUS_Desktop">
+                          <p>ASUS</p>
+                          </Link>
+                          <Link href = "/Desktop/Dell_Desktop">
+                          <p>DELL</p>
+                          </Link>
+                          <Link href = "/Desktop/Lenovo_Desktop">
+                          <p>LENOVO</p>
+                          </Link>
+                          <Link href = "/Desktop/iMac">
+                          <p>iMAC</p>
+                          </Link>
+
+
+
                 </Grid>
                 <Grid item xs={12} sm={3}>
                     <h1>ACCESSORY</h1>
-                    <p>MOUSE</p>
-                    <p>KEYBOARD</p>
-                    <p>FLASH</p>
-                    <p>BAG</p>
-                    <p>HDD SSD</p>
+
+                        <Link href = "/Accessory/Mouse">
+                        <p>MOUSE</p>
+                        </Link>
+                        <Link href = "/Accessory/Keyboard">
+                        <p>KEYBOARD</p>
+                        </Link>
+                        <Link href = "/Accessory/Flash">
+                        <p>FLASH</p>
+                        </Link>
+                        <Link href = "/Accessory/Bag">
+                        <p>BAG</p>
+                        </Link>
+                        <Link href = "/Accessory/HDD_SSD">
+                        <p>HDD SSD</p>
+                        </Link>
                 </Grid>
                 <Grid item xs={12} sm={4}>
                                 <div  className={ classes.header}>

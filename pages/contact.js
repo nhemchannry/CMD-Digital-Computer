@@ -3,11 +3,6 @@ import { TextField } from '@material-ui/core';
 import {makeStyles} from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import emailjs from 'emailjs-com';
-import InputLabel from '@material-ui/core/InputLabel';
-import FormControl from '@material-ui/core/FormControl';
-import Select from '@material-ui/core/Select';
-import Link from 'next/link'
-import ContactPage from "../components/containers/aboutPage";
 const useStyles= makeStyles((theme)=>({
     root:{
         backgroundColor: `#fff`,
