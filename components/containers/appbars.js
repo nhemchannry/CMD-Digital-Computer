@@ -208,7 +208,7 @@ export default function AppBars(){
           <ACCESERYS/>
           <ToggleButton style={{marginRight: 20,marginLeft:20}} href="/contact">CONTACT US</ToggleButton>
           <ToggleButton style={{marginRight: 20}} href="/about">ABOUT</ToggleButton>
-          <ToggleButton style={{marginRight: 20}} href="/register">CREATE ACCOUNT</ToggleButton>
+          <ToggleButton style={{marginRight: 20}} href="/privacy">PRIVACY</ToggleButton>
 
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: 'none', md: 'flex' } }}>

@@ -75,7 +75,7 @@ export default function ImageDesktop3() {
       />
       <MobileStepper
       variant="dots"
-      steps={6}
+      steps={3}
       position="static"
       activeStep={activeStep}
       className={classes.root}
