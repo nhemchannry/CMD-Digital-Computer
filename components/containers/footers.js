@@ -22,31 +22,27 @@ export default function Footers() {
             <Grid container spacing={2}>
                 <Grid style={{paddingLeft: 50}} item xs={12} sm={3}>
                     <h1>DESKTOP</h1>
-                    <p>Dell</p>
-                    <p>Dell</p>
-                    <p>Dell</p>
-                    <p>Dell</p>
+                    <p>MSI</p>
+                    <p>DELL</p>
+                    <p>ASUS</p>
+                    <p>MAC</p>
+                    <p>LENOVO</p>
                 </Grid>
                 <Grid item xs={12} sm={3}>
-                    <h1>DESKTOP</h1>
-                    <p>Dell</p>
-                    <p>Dell</p>
-                    <p>Dell</p>
-                    <p>Dell</p>
+                    <h1>LAPTOP</h1>
+                    <p>MSI</p>
+                    <p>DELL</p>
+                    <p>ASUS</p>
+                    <p>MAC</p>
+                    <p>LENOVO</p>
                 </Grid>
                 <Grid item xs={12} sm={3}>
-                    <h1>DESKTOP</h1>
-                    <p>Dell</p>
-                    <p>Dell</p>
-                    <p>Dell</p>
-                    <p>Dell</p>
-                </Grid>
-                <Grid item xs={12} sm={3}>
-                    <h1>DESKTOP</h1>
-                    <p>Dell</p>
-                    <p>Dell</p>
-                    <p>Dell</p>
-                    <p>Dell</p>
+                    <h1>ACCESSORY</h1>
+                    <p>MOUSE</p>
+                    <p>KEYBOARD</p>
+                    <p>FLASH</p>
+                    <p>BAG</p>
+                    <p>HDD SSD</p>
                 </Grid>
 
             </Grid>

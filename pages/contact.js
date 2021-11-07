@@ -7,7 +7,7 @@ import InputLabel from '@material-ui/core/InputLabel';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 import Link from 'next/link'
-
+import ContactPage from "../components/containers/aboutPage";
 const useStyles= makeStyles((theme)=>({
     root:{
         backgroundColor: `#fff`,
@@ -59,6 +59,7 @@ export default function Contact(){
            <TextField name="message" required className="input" id="outlined-basic" label="Message" type="text" variant="outlined" multiline rows={5}/>
            <Button className={classes.btn} type="submit" variant="contained" color="primary ">Submit</Button>
            </form>
+           <ContactPage/>
         </div>
     )
 }

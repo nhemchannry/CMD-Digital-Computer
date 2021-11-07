@@ -47,7 +47,6 @@ const useStyles = makeStyles((theme)=>({
   image:{
     backgroundImage: "./bg.jpg",
     backgroundRepeat: "no-repeat",
-    backgroundColor:"#040828",
       backgroundSize: "cover",
       backgroundPosition: "center",
   },
@@ -113,7 +112,7 @@ export default function LoginForm(){
     return(
       <Grid container component="main" className={classes.root}> 
         <CssBaseline/>
-        <Grid item xs={false} sm={4} md={7} className={classes.image}/>
+        <Grid item xs={false} sm={4} md={3} className={classes.image}/>
         <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
         <div className={classes.paper}>
           <Image 

@@ -9,12 +9,7 @@ import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
 
 const tutorialSteps = [
   {
-    label: 'MAC BOOK',
-    imgPath:
-      'https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/macbook-pro-13-og-202011?wid=600&hei=315&fmt=jpeg&qlt=95&.v=1604347427000',
-  },
-  {
-    label: 'LENOVO',
+    label: 'RAZER PC',
     imgPath:
       'https://metro.co.uk/wp-content/uploads/2021/07/chassis-5289.jpg?quality=90&strip=all&zoom=1&resize=480%2C319',
   },
@@ -28,16 +23,7 @@ const tutorialSteps = [
     imgPath:
       'https://i.ytimg.com/vi/NFrR_xZ3yPo/maxresdefault.jpg',
   },
-  {
-    label: 'MSI INFINITE X 1080',
-    imgPath:
-      'https://asset.msi.com/resize/image/global/product/product_8_20190108145456_5c34494035783.png62405b38c58fe0f07fcef2367d8a9ba1/600.png',
-  },
-  {
-    label: 'MSI INFINITE X 1080',
-    imgPath:
-      'https://asset.msi.com/resize/image/global/product/product_8_20190108145456_5c34494035783.png62405b38c58fe0f07fcef2367d8a9ba1/600.png',
-  },
+
 ];
 
 const useStyles = makeStyles((theme) => ({
@@ -46,9 +32,6 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     '& button':{
       color : "black",
-      backgroundImage:
-      'linear-gradient( 136deg, rgb(242,113,33) 0%, rgb(233,64,87) 50%, rgb(138,35,135) 100%)',
-    boxShadow: '0 4px 10px 0 rgba(0,0,0,.25)',
   }
   },
   header: {
@@ -56,10 +39,6 @@ const useStyles = makeStyles((theme) => ({
     alignItems: 'center',
     height: 50,
     paddingLeft: theme.spacing(4),
-    backgroundColor: theme.palette.background.default,
-    backgroundImage:
-      'linear-gradient( 136deg, rgb(242,113,33) 0%, rgb(233,64,87) 50%, rgb(138,35,135) 100%)',
-    boxShadow: '0 4px 10px 0 rgba(0,0,0,.25)',
   },
   img: {
     height: 255,

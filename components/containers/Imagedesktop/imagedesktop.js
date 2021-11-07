@@ -9,34 +9,24 @@ import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
 
 const tutorialSteps = [
   {
-    label: 'Laptop dell',
+    label: 'DELL G3',
     imgPath:
-      'https://cdn.pocket-lint.com/r/s/970x/assets/images/155087-laptops-review-microsoft-surface-laptop-go-review-image1-6ezitk9ymj.jpg',
+      'https://i.dell.com/is/image/DellContent//content/dam/global-asset-library/Products/Notebooks/g-series/g3_15_3500_non-touch/dg3500nt_cnb_00055rf110_bk_50w.psd?fmt=pjpg&amp;pscan=auto&amp;scl=1&amp;hei=402&amp;wid=402&amp;qlt=100,0&amp;resMode=sharp2&amp;size=402,402',
   },
   {
-    label: 'LENOVO',
+    label: 'LENOVO THINKPAD',
     imgPath:
-      'https://metro.co.uk/wp-content/uploads/2021/07/chassis-5289.jpg?quality=90&strip=all&zoom=1&resize=480%2C319',
+      'https://p1-ofp.static.pub/medias/bWFzdGVyfHJvb3R8MzE4MTc2fGltYWdlL3BuZ3xoZWUvaDE3Lzk5MTg3NjE3MzAwNzgucG5nfDIzYTk5OGFmMzk3Mzg1YTk2ZDg3NDhmYjY1YzJhNjk1MDk2MDVjNjVjMTRhODdlYjZmOGNhYjE2NTU2NWY1MGU/lenovo-laptop-thinkpad-t590-hero.png',
   },
   {
     label: 'DELL SPIRON GAMING',
     imgPath:
-      'https://hothardware.com/ContentImages/Article/2738/content/small_dell_inspiron_5680_stock.jpg',
+      'https://i.dell.com/sites/imagecontent/products/PublishingImages/inspiron-15-7567-laptop/hero/notebook-inspiron-15-7567-non-touch-black-front-windows-hero-504x350-ng.png',
   },
   {
     label: 'MSI MEG TRIDENT X',
     imgPath:
       'https://i.ytimg.com/vi/NFrR_xZ3yPo/maxresdefault.jpg',
-  },
-  {
-    label: 'MSI INFINITE X 1080',
-    imgPath:
-      'https://asset.msi.com/resize/image/global/product/product_8_20190108145456_5c34494035783.png62405b38c58fe0f07fcef2367d8a9ba1/600.png',
-  },
-  {
-    label: 'MSI INFINITE X 1080',
-    imgPath:
-      'https://asset.msi.com/resize/image/global/product/product_8_20190108145456_5c34494035783.png62405b38c58fe0f07fcef2367d8a9ba1/600.png',
   },
 ];
 
@@ -46,9 +36,6 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     '& button':{
       color : "black",
-      backgroundImage:
-      'linear-gradient( 136deg, rgb(242,113,33) 0%, rgb(233,64,87) 50%, rgb(138,35,135) 100%)',
-    boxShadow: '0 4px 10px 0 rgba(0,0,0,.25)',
   }
   },
   header: {
@@ -56,10 +43,6 @@ const useStyles = makeStyles((theme) => ({
     alignItems: 'center',
     height: 50,
     paddingLeft: theme.spacing(4),
-    backgroundColor: theme.palette.background.default,
-    backgroundImage:
-      'linear-gradient( 136deg, rgb(242,113,33) 0%, rgb(233,64,87) 50%, rgb(138,35,135) 100%)',
-    boxShadow: '0 4px 10px 0 rgba(0,0,0,.25)',
   },
   img: {
     height: 255,
@@ -96,7 +79,7 @@ export default function ImageDesktop() {
       />
       <MobileStepper
       variant="dots"
-      steps={6}
+      steps={4}
       position="static"
       activeStep={activeStep}
       className={classes.root}

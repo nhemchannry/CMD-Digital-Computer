@@ -11,17 +11,12 @@ const tutorialSteps = [
   {
     label: 'BAG',
     imgPath:
-      'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.com%2FMSI-Urban-Raider-Backpack-Lightweight%2Fdp%2FB07JGHZHZS&psig=AOvVaw1ztUoEz8W2OOHXf4keL90A&ust=1636308826348000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCOjIrsqrhPQCFQAAAAAdAAAAABAD',
+      'https://razer01-01-us-east-1-prod-media.s3.amazonaws.com/sys-master/images/h55/hde/9858151612446/razer-rogue-15-v3-chromatic-abrasion-mobile.jpg',
   },
   {
     label: 'HDD',
     imgPath:
-      'https://www.google.com/url?sa=i&url=https%3A%2F%2Fblocksandfiles.com%2F2021%2F02%2F18%2Ftoshiba-18tb-mg09-hdd%2F&psig=AOvVaw2egaD_iYciusxhYtc51Oz8&ust=1636308856533000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCIirwtirhPQCFQAAAAAdAAAAABAk',
-  },
-  {
-    label: 'SSD',
-    imgPath:
-      'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.westerndigital.com%2Fen-ap%2Fproducts%2Finternal-drives%2Fwd-blue-sata-m-2-ssd&psig=AOvVaw2lie1RCexznVTT3E9KhHn5&ust=1636308909383000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCKCilfWrhPQCFQAAAAAdAAAAABAD',
+      'https://www.esus-it.nl/eng_pl_Hard-Disc-Drive-dedicated-for-HP-server-2-5-capacity-1TB-7200RPM-HDD-SAS-12Gb-s-832984-001-RFB-REFURBISHED-37719_1.jpg',
   },
 ];
 
@@ -81,7 +76,7 @@ export default function ImageAccesery() {
       />
       <MobileStepper
       variant="dots"
-      steps={3}
+      steps={2}
       position="static"
       activeStep={activeStep}
       className={classes.root}

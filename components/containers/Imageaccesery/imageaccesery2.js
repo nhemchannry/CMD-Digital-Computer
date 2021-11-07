@@ -11,17 +11,12 @@ const tutorialSteps = [
   {
     label: 'MOUSE',
     imgPath:
-      'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.apple.com%2Fnz%2Fnewsroom%2F2020%2F03%2Fnew-macbook-air-has-more-to-love-and-is-now-just-999%2F&psig=AOvVaw2xVigugPC4XT909LzVtcBY&ust=1636308543209000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCNju3r6qhPQCFQAAAAAdAAAAABAD',
+      'https://assets3.razerzone.com/-y3sc2QaJYkNmM01wEyj0rMjtHo=/767x511/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh85%2Fhe0%2F9081445974046%2Frazer-naga-trinity-gallery-hero-1500x1000.jpg',
   },
   {
     label: 'KEYBOARD',
     imgPath:
-      'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.notebookcheck.net%2FLenovo-ThinkPad-L13-Yoga-Gen2-20VK000VGE.562743.0.html&psig=AOvVaw1F9p8TSQ0A0lr9LO5GrHbp&ust=1636308580454000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCOj6ptiqhPQCFQAAAAAdAAAAABAD',
-  },
-  {
-    label: 'FLASH',
-    imgPath:
-      'https://hothardware.com/ContentImages/Article/2738/content/small_dell_inspiron_5680_stock.jpg',
+      'https://assets3.razerzone.com/k-WfadFgoPVSu9YnXJzv5BfCuIQ=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhcb%2Fhee%2F9081238519838%2FRazer-BlackWidow-2019-gallery04.jpg',
   },
 ];
 
@@ -81,7 +76,7 @@ export default function ImageAccesery2() {
       />
       <MobileStepper
       variant="dots"
-      steps={6}
+      steps={2}
       position="static"
       activeStep={activeStep}
       className={classes.root}

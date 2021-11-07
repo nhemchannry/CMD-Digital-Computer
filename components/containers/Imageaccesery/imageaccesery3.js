@@ -9,34 +9,14 @@ import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
 
 const tutorialSteps = [
   {
-    label: 'MAC BOOK',
+    label: 'FLASH',
     imgPath:
-      'https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/macbook-pro-13-og-202011?wid=600&hei=315&fmt=jpeg&qlt=95&.v=1604347427000',
+      'https://razer01-01-us-east-1-prod-media.s3.amazonaws.com/sys-master/root/h5f/h67/8890801389598/thresher_71_ps4-7.jpg',
   },
   {
-    label: 'LENOVO',
+    label: 'SSD',
     imgPath:
-      'https://metro.co.uk/wp-content/uploads/2021/07/chassis-5289.jpg?quality=90&strip=all&zoom=1&resize=480%2C319',
-  },
-  {
-    label: 'DELL SPIRON GAMING',
-    imgPath:
-      'https://hothardware.com/ContentImages/Article/2738/content/small_dell_inspiron_5680_stock.jpg',
-  },
-  {
-    label: 'MSI MEG TRIDENT X',
-    imgPath:
-      'https://i.ytimg.com/vi/NFrR_xZ3yPo/maxresdefault.jpg',
-  },
-  {
-    label: 'MSI INFINITE X 1080',
-    imgPath:
-      'https://asset.msi.com/resize/image/global/product/product_8_20190108145456_5c34494035783.png62405b38c58fe0f07fcef2367d8a9ba1/600.png',
-  },
-  {
-    label: 'MSI INFINITE X 1080',
-    imgPath:
-      'https://asset.msi.com/resize/image/global/product/product_8_20190108145456_5c34494035783.png62405b38c58fe0f07fcef2367d8a9ba1/600.png',
+      'https://www.westerndigital.com/content/dam/store/en-us/assets/products/internal-storage/wd-blue-3d-nand-sata-ssd/gallery/m2/wd-blue-3d-nand-sata-ssd-m2-2280-2TB.png',
   },
 ];
 
@@ -96,7 +76,7 @@ export default function ImageAccesery3() {
       />
       <MobileStepper
       variant="dots"
-      steps={6}
+      steps={2}
       position="static"
       activeStep={activeStep}
       className={classes.root}
