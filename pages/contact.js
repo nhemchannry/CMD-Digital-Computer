@@ -59,7 +59,7 @@ export default function Contact(){
            <TextField name="message" required className="input" id="outlined-basic" label="Message" type="text" variant="outlined" multiline rows={5}/>
            <Button className={classes.btn} type="submit" variant="contained" color="primary ">Submit</Button>
            </form>
-           <ContactPage/>
+           {/* <ContactPage/> */}
         </div>
     )
 }
