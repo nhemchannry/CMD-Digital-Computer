@@ -26,9 +26,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     '& button':{
       color : "black",
-      backgroundImage:
-      'linear-gradient( 136deg, rgb(242,113,33) 0%, rgb(233,64,87) 50%, rgb(138,35,135) 100%)',
-    boxShadow: '0 4px 10px 0 rgba(0,0,0,.25)',
+
   }
   },
   header: {
@@ -37,9 +35,6 @@ const useStyles = makeStyles((theme) => ({
     height: 50,
     paddingLeft: theme.spacing(4),
     backgroundColor: theme.palette.background.default,
-    backgroundImage:
-      'linear-gradient( 136deg, rgb(242,113,33) 0%, rgb(233,64,87) 50%, rgb(138,35,135) 100%)',
-    boxShadow: '0 4px 10px 0 rgba(0,0,0,.25)',
   },
   img: {
     height: 255,

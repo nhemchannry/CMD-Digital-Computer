@@ -9,34 +9,19 @@ import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
 
 const tutorialSteps = [
   {
-    label: 'MAC BOOK',
+    label: 'RAZER',
     imgPath:
-      'https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/macbook-pro-13-og-202011?wid=600&hei=315&fmt=jpeg&qlt=95&.v=1604347427000',
-  },
-  {
-    label: 'LENOVO',
-    imgPath:
-      'https://metro.co.uk/wp-content/uploads/2021/07/chassis-5289.jpg?quality=90&strip=all&zoom=1&resize=480%2C319',
-  },
-  {
-    label: 'DELL SPIRON GAMING',
-    imgPath:
-      'https://hothardware.com/ContentImages/Article/2738/content/small_dell_inspiron_5680_stock.jpg',
-  },
-  {
-    label: 'MSI MEG TRIDENT X',
-    imgPath:
-      'https://i.ytimg.com/vi/NFrR_xZ3yPo/maxresdefault.jpg',
+      'https://photos5.appleinsider.com/gallery/45288-88315-razer-blade-3-xl.jpg',
   },
   {
     label: 'MSI INFINITE X 1080',
     imgPath:
-      'https://asset.msi.com/resize/image/global/product/product_8_20190108145456_5c34494035783.png62405b38c58fe0f07fcef2367d8a9ba1/600.png',
+      'https://asset.msi.com/resize/image/global/product/product_1_20180207120006_5a7a79c6aee35.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png',
   },
   {
-    label: 'MSI INFINITE X 1080',
+    label: 'ASUS',
     imgPath:
-      'https://asset.msi.com/resize/image/global/product/product_8_20190108145456_5c34494035783.png62405b38c58fe0f07fcef2367d8a9ba1/600.png',
+      'https://dlcdnwebimgs.asus.com/gain/f1ef7415-3f55-4ccf-b194-24e8d4f0f383/',
   },
 ];
 
@@ -46,9 +31,6 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     '& button':{
       color : "black",
-      backgroundImage:
-      'linear-gradient( 136deg, rgb(242,113,33) 0%, rgb(233,64,87) 50%, rgb(138,35,135) 100%)',
-    boxShadow: '0 4px 10px 0 rgba(0,0,0,.25)',
   }
   },
   header: {
@@ -56,10 +38,6 @@ const useStyles = makeStyles((theme) => ({
     alignItems: 'center',
     height: 50,
     paddingLeft: theme.spacing(4),
-    backgroundColor: theme.palette.background.default,
-    backgroundImage:
-      'linear-gradient( 136deg, rgb(242,113,33) 0%, rgb(233,64,87) 50%, rgb(138,35,135) 100%)',
-    boxShadow: '0 4px 10px 0 rgba(0,0,0,.25)',
   },
   img: {
     height: 255,
@@ -96,7 +74,7 @@ export default function ImageLaptop2() {
       />
       <MobileStepper
       variant="dots"
-      steps={6}
+      steps={3}
       position="static"
       activeStep={activeStep}
       className={classes.root}
