@@ -11,7 +11,8 @@ import Link from 'next/link'
 const useStyles= makeStyles((theme)=>({
     root:{
         backgroundColor: `#fff`,
-        height: `100vh`
+        height: `90vh`,
+        marginTop: 70
     },
     form:{
         width: 400,
@@ -51,11 +52,11 @@ export default function Contact(){
     return(
         <div className={classes.root}>
            <form onSubmit={handleSendEmail} className={classes.form}>
-               <h1>Message us anytime</h1>
+               <h1 style={{marginTop: 20, }}>Message us anytime</h1>
                <p>To have conversation with us, you need to fill the form</p>
            <TextField name="fullName" required className="input" id="outlined-basic" label="Name" type="text" variant="outlined" />
            <TextField name="email" required className="input" id="outlined-basic" label="Email" type="email" variant="outlined" />
-           <TextField name="message" required className="input" id="outlined-basic" label="Message" type="text" variant="outlined" />
+           <TextField name="message" required className="input" id="outlined-basic" label="Message" type="text" variant="outlined" multiline rows={5}/>
            <Button className={classes.btn} type="submit" variant="contained" color="primary ">Submit</Button>
            </form>
         </div>

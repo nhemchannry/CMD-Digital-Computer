@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Link from 'next/link';
 import { styled, alpha } from '@mui/material/styles';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -177,7 +178,9 @@ export default function AppBars(){
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="fixed">
         <Toolbar>
+        <Link href="../home">
           <Image src="/logo.png" alt="logo" width="50" height="50"/>
+        </Link>
           <Typography
             variant="h6"
             noWrap
@@ -203,7 +206,7 @@ export default function AppBars(){
           <Loptops/>
           <Desktops/>
           <ACCESERYS/>
-          <ToggleButton style={{marginRight: 20}} href="/contact">CONTACT US</ToggleButton>
+          <ToggleButton style={{marginRight: 20,marginLeft:20}} href="/contact">CONTACT US</ToggleButton>
           <ToggleButton style={{marginRight: 20}} href="/about">ABOUT</ToggleButton>
           <ToggleButton style={{marginRight: 20}} href="/register">CREATE ACCOUNT</ToggleButton>
 

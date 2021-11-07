@@ -1,17 +1,14 @@
 import React from "react"
 import Image from 'next/image'
-
+import Link from 'next/link'
 import { Card, CardHeader, CardContent, CardActions, CardMedia, Button } from "@material-ui/core"
 import { IconButton, Avatar } from "@material-ui/core"
 import { FullscreenExit, More } from "@material-ui/icons"
 import { makeStyles } from "@material-ui/core/styles"
-import { margin } from "@mui/system"
 import FavoriteIcon from '@material-ui/icons/Favorite';
-import ShareIcon from '@material-ui/icons/Share';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import { Typography } from "@material-ui/core";
-import { Grid } from "@material-ui/core"
 
 
 const useStyles = makeStyles ((theme)=>({
@@ -71,11 +68,12 @@ export default function ProductCard({Brand, Title, ImgSrc, OS, CPU, VGA, RAM, HD
                 <CardActions  >
                     <Button size="large" color="primary"> <FavoriteIcon/>Like </Button>
                     <Button size="large" color="primary"> <ShoppingCartIcon/> Add Card </Button>
-                    {/* <Button size="large" color="primary" > <ShareIcon/> Share </Button> */}
+                    <Link href="../contact">
                     <Button size="large" color="primary" ><MailOutlineIcon/>Inbox</Button>
-                    
+                    </Link>
+                    <Link href="../home">
                     <IconButton color="primary" style={{marginLeft:60}} > <Image src="/logo.png" alt="logo" width="35" height="35"  style = {{float:"right"}}/></IconButton>
-
+                    </Link>
                 </CardActions>
               
             </Card>

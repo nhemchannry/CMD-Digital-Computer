@@ -17,7 +17,6 @@ import MuiAlert from "@material-ui/lab/Alert";
 import {fireAuth} from "../services/firebase";
 import Typography from "@material-ui/core/Typography";
 import { CheckBox,SendOutlined } from "@material-ui/icons";
-
 function Alert(props){
   return <MuiAlert elevation ={6} variant="filled" {...props}/>;
 }
@@ -53,7 +52,7 @@ const useStyles = makeStyles((theme)=>({
       backgroundPosition: "center",
   },
   paper:{
-    margin: theme.spacing(8, 4),
+    margin: theme.spacing(20, 4),
     display: "flex",
     flexDirection: "column",
     alignItems:"center",
@@ -97,11 +96,12 @@ export default function Register(){
     })
   }
     return(
-        <div>
+        <div style={{height:"100vh"}}>
           <Grid container>
           <CssBaseline/>
-        <Grid item xs={false} sm={4} md={7} className={classes.image}/>
-        <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
+        <Grid item xs={false} sm={4} md={3} className={classes.image} />
+        {/* <Image src="/Msi cover .jpg" layout="fill"></Image> */}
+        <Grid item xs={6} sm={8} md={5} component={Paper} elevation={6} square>
         <div className={classes.paper}>
 
           <Typography componet="h1" variant="h5">

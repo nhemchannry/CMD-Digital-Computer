@@ -1,5 +1,6 @@
 import React from "react"
 import Image from 'next/image'
+import Link from "next/link"
 
 import { Card, CardHeader, CardContent, CardActions, CardMedia, Button } from "@material-ui/core"
 import { IconButton, Avatar } from "@material-ui/core"
@@ -63,10 +64,12 @@ export default function AccessryCard({Brand, BrandName, ImgSrc, Describe, PRICE}
                 <CardActions  >
                     <Button size="large" color="primary" style = {{ padding: 0}}> <FavoriteIcon/>Like </Button>
                     <Button size="large" color="primary" style = {{width: 300, padding: 0}}> <ShoppingCartIcon/> Add Card </Button>
+                    <Link href="../contact">
                     <Button size="large" color="primary" style = {{ padding: 0}}><MailOutlineIcon/>Inbox</Button>
-                    
+                    </Link>
+                    <Link href="../home">
                     <IconButton color="primary" style={{marginLeft:10}} > <Image src="/logo.png" alt="logo" width="35" height="35"  style = {{float:"right"}}/></IconButton>
-
+                    </Link>
                 </CardActions>
               
             </Card>
